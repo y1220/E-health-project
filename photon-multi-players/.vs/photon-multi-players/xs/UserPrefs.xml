@@ -1,14 +1,24 @@
 ﻿<Properties StartupConfiguration="{B9BE53F4-6DE2-F2CE-4AC1-346BD22BEE17}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/NewBehaviourScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Photon/PhotonUnityNetworking/Code/PhotonNetwork.cs">
     <Files>
-      <File FileName="Assets/Scripts/NetworkManager.cs" Line="52" Column="42" />
-      <File FileName="Assets/Scripts/NewBehaviourScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/NetworkManager.cs" Line="51" Column="24" />
+      <File FileName="Assets/Scripts/NewBehaviourScript.cs" Line="140" Column="31" />
+      <File FileName="Assets/Photon/PhotonUnityNetworking/Code/PhotonNetwork.cs" Line="1915" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="photon-multi-players" expanded="True">
-            <Node name="Assets" expanded="True" selected="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Photon" expanded="True">
+                <Node name="PhotonUnityNetworking" expanded="True">
+                  <Node name="Code" expanded="True">
+                    <Node name="PhotonNetwork.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Scripts" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
