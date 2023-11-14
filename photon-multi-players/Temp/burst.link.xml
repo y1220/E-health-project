@@ -31,14 +31,14 @@
   <type fullname="UnityEngine.Jobs.TransformAccess">
    <method name="GetWorldToLocalMatrix"/>
   </type>
+  <type fullname="UnityEngine.Jobs.TransformAccess">
+   <method name="GetLocalToWorldMatrix"/>
+  </type>
   <type fullname="Unity.Collections.LowLevel.Unsafe.UnsafeUtility">
    <method name="FreeTracked"/>
   </type>
   <type fullname="Unity.Collections.LowLevel.Unsafe.UnsafeUtility">
    <method name="MallocTracked"/>
-  </type>
-  <type fullname="UnityEngine.Jobs.TransformAccess">
-   <method name="GetLocalToWorldMatrix"/>
   </type>
   <type fullname="Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility">
    <method name="BeginSample"/>
