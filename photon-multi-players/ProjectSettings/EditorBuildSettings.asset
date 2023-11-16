@@ -14,4 +14,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 1cad6b3542826452f934bd21bf2b9fd5
+  - enabled: 1
+    path: Assets/Scenes/Home.unity
+    guid: bc34388eed56f43d9929a22d50734cc3
+  - enabled: 1
+    path: Assets/Scenes/Morning.unity
+    guid: f006129e084754911b65a89aa0f639e3
+  - enabled: 1
+    path: Assets/Scenes/Night.unity
+    guid: 6d85952fddc0b4568a68f54b81995ab0
+  - enabled: 1
+    path: Assets/Scenes/Survey.unity
+    guid: 2305de4bcb15a4882a2e2f1c7b4c8832
+  - enabled: 1
+    path: Assets/Scenes/Thanks.unity
+    guid: 3c52dd504e5d342ac9830612bacfd852
   m_configObjects: {}
