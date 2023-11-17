@@ -69,6 +69,7 @@
      <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/ChatGui.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
      <Compile Include="Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs" />
+     <Compile Include="Assets/Scripts/JumpToIntroduction2.cs" />
      <Compile Include="Assets/Scripts/SendToGoogle.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
@@ -77,6 +78,7 @@
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
      <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/ChatAppIdCheckerUI.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
+     <Compile Include="Assets/Scripts/JumpToIntroduction3.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
@@ -96,107 +98,316 @@
      <Compile Include="Assets/Scripts/JumpToSurvey.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
+     <Compile Include="Assets/Animated Fantasy Planet/Demo/Script/LookCamera.cs" />
      <Compile Include="Assets/Scripts/PlayerController.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
      <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/IgnoreUiRaycastWhenInactive.cs" />
      <Compile Include="Assets/Scripts/UIScript.cs" />
+     <Compile Include="Assets/Scripts/JumpToIntroduction1.cs" />
      <Compile Include="Assets/Photon/PhotonChat/Demos/Common/EventSystemSpawner.cs" />
      <Compile Include="Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs" />
      <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/NamePickGui.cs" />
      <Compile Include="Assets/Photon/PhotonChat/Demos/Common/TextButtonTransition.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
      <Folder Include="Assets" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/GUI ( Update 1.7 )" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2D Tiles ( Update 1.9 )/Autumn/256x256" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+     <Folder Include="Assets/Animated Fantasy Planet/Demo/Script" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/eps" />
      <None Include="Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.xml" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/2048x1536/All" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/2048x1536" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Sprites" />
      <Folder Include="Assets/Photon/PhotonChat/Demos" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/GUI ( Update 1.7 )/ai" />
+     <Folder Include="Assets/Animated Fantasy Planet/Demo" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+     <Folder Include="Assets/Devion Games/UI Widgets/Example/Prefabs" />
+     <Folder Include="Assets/Animated Fantasy Planet" />
      <Folder Include="Assets/TextMesh Pro/Sprites" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2D Tiles ( Update 1.9 )/Autumn/128x128" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/All" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Water Animation/2D view ( Update 1.9 )/128x128" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.7 )/png/1920x1080" />
      <Folder Include="Assets/animation player2" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Coin Animation/eps" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2.5D Tiles/Autumn ( Update 1.9 )/256x256" />
      <Folder Include="Assets/TextMesh Pro/Resources/Sprite Assets" />
      <Folder Include="Assets/sprites and tecstures/PNG/Red" />
      <None Include="Assets/Photon/PhotonUnityNetworking/changelog.txt" />
+     <Folder Include="Assets/Devion Games/Flat GUI/Prefabs" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Character/Character Source/eps" />
+     <Folder Include="Assets/BayatGames" />
+     <Folder Include="Assets/Devion Games/UI Widgets/Scripts" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Separate" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/ai" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.9 )" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+     <None Include="Assets/Devion Games/Utilities/com.deviongames.utilities.json" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2D Tiles ( Update 1.9 )/Spring/512x512" />
      <Folder Include="Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2.5D Tiles/Winter ( Update 1.9 )" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2.5D Tiles/Spring/png/256x256" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.7 )/png/1920x1080/All" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/2048x1536/Background" />
      <Folder Include="Assets/Scripts" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2.5D Tiles" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Character/Character Source/png/4x/Sprite Mesh" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Idle" />
      <Folder Include="Assets/Photon/PhotonUnityNetworking" />
      <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Character/Character Source" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2D Tiles ( Update 1.9 )" />
+     <Folder Include="Assets/Devion Games/Module Manager" />
+     <None Include="Assets/Devion Games/UI Widgets/com.deviongames.ui.json" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.7 )/png/2048x1536/All" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/eps" />
      <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2D Tiles ( Update 1.9 )/Autumn/512x512" />
      <Folder Include="Assets/Sprites" />
      <Folder Include="Assets/TextMesh Pro/Resources/Fonts &amp; Materials" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/png/Separate/Model-1/4x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2.5D Tiles/Spring" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Separate/1x" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
      <Folder Include="Assets/animation player2/running" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Water Animation/2D view ( Update 1.9 )" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2.5D Tiles/Autumn ( Update 1.9 )" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Character/Character Source/png/4x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/512x512" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
      <Folder Include="Assets/TextMesh Pro/Resources" />
+     <Folder Include="Assets/Devion Games/Flat GUI/Elements" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/png/Separate/Model-1/2x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Environments/Environments/ai" />
+     <Folder Include="Assets/Free 2D Adventure Beach Pack/Example" />
      <Folder Include="Assets/Photon/PhotonRealtime/Demos" />
      <Folder Include="Assets/Prefabs" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2D Tiles ( Update 1.9 )/Winter/512x512" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/GUI ( Update 1.7 )/png" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Water Animation/2.5D View" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/png/Separate/Model-1" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Sheet" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Coin Animation/ai" />
+     <None Include="Assets/Devion Games/Module Manager/com.deviongames.modulemanager.json" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/png/Sliced/Model-2/2x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.9 )/png" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Run" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/Chest" />
+     <None Include="Assets/BayatGames/Free Platform Game Assets/Readme.txt" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/8x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/32x32" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/Clouds" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.7 )/ai" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Sliced/Sliced 1/2x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Coin Animation" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Sliced/Sliced 2" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+     <Folder Include="Assets/Devion Games/Flat GUI" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/Chest/eps" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png" />
+     <Folder Include="Assets/Free 2D Adventure Beach Pack/sunset-backgrounds" />
      <Folder Include="Assets/Photon/PhotonRealtime" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2.5D Tiles/Autumn ( Update 1.9 )/512x512" />
+     <Folder Include="Assets/Animated Fantasy Planet/Textures" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.9 )/png/2048x1024/backgraound" />
      <Folder Include="Assets/TextMesh Pro" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/ai" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/eps" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2.5D Tiles/Spring/ai" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/png/Separate/Model-2/1x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/Clouds/128x128" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2D Tiles ( Update 1.9 )/Autumn" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )" />
      <Folder Include="Assets/sprites and tecstures/PNG" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2.5D Tiles/Spring/png" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Resources" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/png/Sliced/Model-2/4x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x" />
+     <Folder Include="Assets/Devion Games/UI Widgets" />
+     <Folder Include="Assets/Devion Games/UI Widgets/Example" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Environments/Environments/eps" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Sliced" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Water Animation/2.5D View/png/1x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2D Tiles ( Update 1.9 )/Spring/128x128" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/Clouds/512x512" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Water Animation/2.5D View/png" />
      <Folder Include="Assets/sprites and tecstures/PNG/Orange" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2.5D Tiles/Autumn ( Update 1.9 )/128x128" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Coin Animation/png" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Water Animation/2D view ( Update 1.9 )/256x256" />
      <Folder Include="Assets/Photon/PhotonChat/Demos/DemoChat/Files" />
      <Folder Include="Assets/materials" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
      <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Materials" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.7 )/png/1920x1080/Background" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x" />
      <Folder Include="Assets/Animation" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
      <Folder Include="Assets/Photon/PhotonLibs/Metro" />
      <Folder Include="Assets/Photon" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Idle/Blink" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Water Animation/2.5D View/eps" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.7 )/png/2048x1536" />
+     <Folder Include="Assets/Free 2D Adventure Beach Pack" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets/Photon/PhotonLibs/changes-library.txt" />
+     <Folder Include="Assets/Animated Fantasy Planet/Materials" />
      <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.9 )/png/1920x1080" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Character" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/Chest/ai" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Demo" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Sliced/Sliced 2/1x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.9 )/png/1920x1080/background" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Sliced/Sliced 1/1x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Sliced/Sliced 1" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles" />
+     <Folder Include="Assets/Devion Games/UI Widgets/Example/Scenes" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/png/Sliced/Model-2" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.7 )/eps" />
      <None Include="Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.deps.json" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
      <None Include="Assets/Photon/PhotonUnityNetworking/readme.txt" />
      <None Include="Assets/Photon/PhotonChat/Demos/DemoChat/Files/eurof_tt.txt" />
      <Folder Include="Assets/TextMesh Pro/Shaders" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Character/Character Source/png/2x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/512x512" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Environments/Environments" />
      <Folder Include="Assets/Photon/PhotonChat/Demos/Common" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets" />
      <Folder Include="Assets/TextMesh Pro/Resources/Style Sheets" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Sliced/Sliced 1/4x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.9 )/png/1920x1080/all" />
      <Folder Include="Assets/TextMesh Pro/Fonts" />
      <Folder Include="Assets/Photon/PhotonUnityNetworking/Resources" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Sliced/Sliced 2/4x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Character/Character Source/png" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/png/Sliced/Model-1/4x" />
      <Folder Include="Assets/sprites and tecstures" />
+     <Folder Include="Assets/Free 2D Adventure Beach Pack/night-backgrounds" />
      <Folder Include="Assets/Scenes" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/GUI ( Update 1.7 )/eps" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.9 )/png/2048x1024/all" />
      <Folder Include="Assets/Photon/PhotonChat" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2.5D Tiles/Winter ( Update 1.9 )/512x512" />
      <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies" />
+     <Folder Include="Assets/Devion Games" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2D Tiles ( Update 1.9 )/Winter/128x128" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/2048x2048" />
      <Folder Include="Assets/sprites and tecstures/animation player" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Enemies" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Prefabs" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/png/Separate" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Sliced/Sliced 2/2x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Separate/4x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2.5D Tiles/Spring/png/128x128" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Character/Character Source/ai" />
+     <Folder Include="Assets/Devion Games/Utilities" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Scenes" />
      <Folder Include="Assets/sprites and tecstures/PNG/Green" />
      <Folder Include="Assets/Photon/PhotonUnityNetworking/Icons" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/Clouds/256x256" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.7 )/png/2048x1536/Background" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2D Tiles ( Update 1.9 )/Winter/256x256" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.9 )/png/2048x1024" />
+     <None Include="Assets/Devion Games/Flat GUI/com.deviongames.flatgui.json" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/png/Sliced/Model-1" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/png" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Jump" />
+     <None Include="Assets/Devion Games/UI Widgets/Example/com.deviongames.uiexamples.json" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Separate/2x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/png/Separate/Model-1/1x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/1024x1024" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/64x64" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets" />
      <Folder Include="Assets/sprites and tecstures/PNG/Purple" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/png/Sheets" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Water Animation/2D view ( Update 1.9 )/512x512" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2D Tiles ( Update 1.9 )/Spring" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2.5D Tiles/Spring/eps" />
      <None Include="Assets/Photon/PhotonLibs/Photon3Unity3D.xml" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2D Tiles ( Update 1.9 )/Spring/256x256" />
      <Folder Include="Assets/sprites and tecstures/animation player/falling" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Environments" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Character/Character Source/png/1x" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/png/Sliced/Model-1/1x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.7 )" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/png/Separate/Model-2" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
      <Folder Include="Assets/sprites and tecstures/animation player/running" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/ai" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2.5D Tiles/Winter ( Update 1.9 )/256x256" />
      <Folder Include="Assets/sprites and tecstures/PNG/Dark" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2D Tiles ( Update 1.9 )/Winter" />
      <Folder Include="Assets/Photon/PhotonChat/Demos/DemoChat" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/png/Sliced" />
      <Folder Include="Assets/animation player2/falling" />
      <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Textures" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/png/Separate/Model-2/4x" />
      <Folder Include="Assets/TextMesh Pro/Documentation" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/Background" />
      <Folder Include="Assets/Photon/PhotonLibs/netstandard2.0" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Preview" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/png/Sliced/Model-2/1x" />
      <None Include="Assets/Photon/PhotonUnityNetworking/link.xml" />
+     <Folder Include="Assets/Animated Fantasy Planet/Mesh" />
      <Folder Include="Assets/Photon/PhotonLibs" />
+     <Folder Include="Assets/Free 2D Adventure Beach Pack/day-backgrounds" />
+     <Folder Include="Assets/Devion Games/Flat GUI/Icons" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View" />
      <Folder Include="Assets/Photon/PhotonLibs/WebSocket" />
+     <Folder Include="Assets/Devion Games/Utilities/Scripts" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2.5D Tiles/Spring/png/512x512" />
      <Folder Include="Assets/sprites and tecstures/PNG/Light" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/png" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/png/Separate/Model-2/2x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Water Animation" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Water Animation/2.5D View/png/2x" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Tiles/2.5D Tiles/Winter ( Update 1.9 )/128x128" />
      <None Include="Assets/TextMesh Pro/Sprites/EmojiOne.json" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.7 )/png" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Water Animation/2.5D View/ai" />
      <Folder Include="Assets/Resource" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
      <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt" />
+     <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/png/Sliced/Model-1/2x" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
@@ -827,23 +1038,59 @@
      <Reference Include="Unity.2D.IK.Runtime">
      <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
      </Reference>
-     <Reference Include="PsdPlugin">
-     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
-     </Reference>
      <Reference Include="com.unity.cinemachine.editor">
      <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Editor">
      <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Burst">
-     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+     <Reference Include="Unity.2D.Common.Path.Editor">
+     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.2D.Common.Path.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.PixelPerfect.Editor">
+     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Rider.Editor">
+     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Aseprite.Common">
+     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.2D.Aseprite.Common.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Sprite.Editor">
+     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow">
+     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics.Editor">
+     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Collections">
+     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.SpriteShape.Runtime">
+     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.PixelPerfect">
+     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro">
+     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Aseprite.Editor">
+     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.2D.Aseprite.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="PsdPlugin">
+     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
      <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.2D.Common.Path.Editor">
-     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.2D.Common.Path.Editor.dll</HintPath>
+     <Reference Include="Unity.Burst">
+     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
      <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -866,68 +1113,38 @@
      <Reference Include="Unity.2D.Tilemap.Extras">
      <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Rider.Editor">
-     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
      <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.PixelPerfect.Editor">
-     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.Aseprite.Common">
-     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.2D.Aseprite.Common.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.Sprite.Editor">
-     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.InternalAPIEditorBridge.005">
-     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.005.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.InternalAPIEngineBridge.001">
-     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Mathematics.Editor">
-     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.Common.Runtime">
-     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
      <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.InternalAPIEditorBridge.005">
+     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.005.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
      <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.InternalAPIEngineBridge.001">
+     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Common.Runtime">
+     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
      <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.2D.Tilemap.Extras.Editor">
-     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
      <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Collections">
-     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.Psdimporter.Editor">
-     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.InternalAPIEditorBridge.001">
      <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.2D.SpriteShape.Runtime">
-     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+     <Reference Include="Unity.2D.Psdimporter.Editor">
+     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
      <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.PixelPerfect">
-     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics">
      <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
@@ -935,14 +1152,8 @@
      <Reference Include="Unity.2D.Common.Editor">
      <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.TextMeshPro">
-     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.Aseprite.Editor">
-     <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.2D.Aseprite.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>/Users/yuiwatanabe/Desktop/E-health-pyhon/photon-multi-players/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
@@ -976,9 +1187,9 @@
       <Project>{7c67fdec-89b2-40d3-2fb2-4204c784d88c}</Project>
       <Name>PunDemos.DemoSlotcarEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{6a452fd2-ea82-3697-e0c2-5aa13ad0f6b6}</Project>
-      <Name>PhotonRealtime</Name>
+    <ProjectReference Include="DevionGames.UIWidgets.csproj">
+      <Project>{3a037c45-a593-a3da-f77f-67dfe0a485af}</Project>
+      <Name>DevionGames.UIWidgets</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonChat.csproj">
       <Project>{cdd043bb-4285-c016-37a8-745aa6a62422}</Project>
@@ -999,6 +1210,14 @@
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
       <Project>{b1ae96f7-9aef-dfff-44a2-0606de7361c2}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="DevionGames.Utilities.csproj">
+      <Project>{9b9d0173-e4c1-6c94-68a3-3d327cd6e602}</Project>
+      <Name>DevionGames.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonRealtime.csproj">
+      <Project>{6a452fd2-ea82-3697-e0c2-5aa13ad0f6b6}</Project>
+      <Name>PhotonRealtime</Name>
     </ProjectReference>
     <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
       <Project>{99a7af19-97c4-c9ac-15cd-3c9eab43f53e}</Project>
