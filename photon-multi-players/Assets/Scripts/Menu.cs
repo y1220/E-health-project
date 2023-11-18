@@ -137,7 +137,7 @@ public class Menu : MonoBehaviourPunCallbacks
         PhotonNetwork.CurrentRoom.IsVisible = false;
 
         // tell everyone to load to the game scene
-        NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "Game");
+        NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "Introduction-0"); // Differentiate depends on inserted username(new game / continue)
     }
 
     public void OnLeaveLobbyButton()

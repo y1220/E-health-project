@@ -11,9 +11,10 @@ public class APIManager : MonoBehaviour
     {
         StartCoroutine(GetRequest(API_URL + "/1"));
         // post request
-    }
+        StartCoroutine(PostRequest(API_URL));
 
-    // Update is called once per frame
+    }
+    
     IEnumerator GetRequest(string uri)
     {
         using (UnityWebRequest webRequest = UnityWebRequest.Get(uri))
@@ -34,8 +35,43 @@ public class APIManager : MonoBehaviour
                     break;
                 case UnityWebRequest.Result.Success:
                     Debug.Log(pages[page] + ":\nReceived: " + webRequest.downloadHandler.text);
+                    PlayerData player = JsonUtility.FromJson<PlayerData>(webRequest.downloadHandler.text);
+                    Debug.Log(player.username);
                     break;
             }
+        }
+    }
+
+    IEnumerator PostRequest(string uri)
+    {
+        PlayerData data = new PlayerData(
+            "player2", "player2@example.com", "password"
+        );
+
+        string jsonData = JsonUtility.ToJson(data);
+        UnityWebRequest webRequest = new UnityWebRequest(uri, "POST");
+        byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonData);
+        webRequest.uploadHandler = new UploadHandlerRaw(bodyRaw);
+        webRequest.downloadHandler = new DownloadHandlerBuffer();
+        // this is needed for ruby on rails
+        webRequest.SetRequestHeader("Content-Type", "application/json");
+
+        yield return webRequest.SendWebRequest();
+        
+        switch (webRequest.result)
+        {
+            case UnityWebRequest.Result.ConnectionError:
+            case UnityWebRequest.Result.DataProcessingError:
+                Debug.Log(": ERROR: " + webRequest.error);
+                break;
+            case UnityWebRequest.Result.ProtocolError:
+                Debug.Log(": HTTP ERROR: " + webRequest.error);
+                break;
+            case UnityWebRequest.Result.Success:
+                Debug.Log("Received: " + webRequest.downloadHandler.text);
+                PlayerData player = JsonUtility.FromJson<PlayerData>(webRequest.downloadHandler.text);
+                Debug.Log(player.username);
+                break;
         }
     }
 }
