@@ -208,7 +208,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 83104891}
-        m_TargetAssemblyTypeName: JumpToIntroduction3, Assembly-CSharp
+        m_TargetAssemblyTypeName: JumpToSignin, Assembly-CSharp
         m_MethodName: StartBtn
         m_Mode: 1
         m_Arguments:
@@ -266,7 +266,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 83104885}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06173ae1f8e704761843b0756e26484a, type: 3}
+  m_Script: {fileID: 11500000, guid: a4d4776ca4a2244d1802be0bcb9c2a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &288349849
@@ -401,8 +401,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hopefully, you are not alone and you can count on your partner to help
-    you get home safe. '
+  m_text: "You are all set, \nyou can start playing!\n\nPlease create your account
+    in \na next page \\(^o^)/"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -912,7 +912,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1109387903}
-        m_TargetAssemblyTypeName: JumpToIntroduction1, Assembly-CSharp
+        m_TargetAssemblyTypeName: JumpToIntroduction5, Assembly-CSharp
         m_MethodName: StartBtn
         m_Mode: 1
         m_Arguments:
@@ -970,7 +970,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1109387898}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b87ffbda6e28047af9af4df1b0ab329c, type: 3}
+  m_Script: {fileID: 11500000, guid: 74ca655f95f00472d9bd2d624dd35ebc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1125944514
@@ -1387,6 +1387,109 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1001 &1965974591
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3816153738752718539, guid: 04eb35944e48f41c9b75c8aabc3db332, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3816153738752718539, guid: 04eb35944e48f41c9b75c8aabc3db332, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3816153738752718539, guid: 04eb35944e48f41c9b75c8aabc3db332, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3816153738752718539, guid: 04eb35944e48f41c9b75c8aabc3db332, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3816153738752718539, guid: 04eb35944e48f41c9b75c8aabc3db332, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3816153738752718539, guid: 04eb35944e48f41c9b75c8aabc3db332, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3816153738752718539, guid: 04eb35944e48f41c9b75c8aabc3db332, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3816153738752718539, guid: 04eb35944e48f41c9b75c8aabc3db332, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3816153738752718539, guid: 04eb35944e48f41c9b75c8aabc3db332, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3816153738752718539, guid: 04eb35944e48f41c9b75c8aabc3db332, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9127035701040949757, guid: 04eb35944e48f41c9b75c8aabc3db332, type: 3}
+      propertyPath: m_Name
+      value: Network Manager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9127035701040949757, guid: 04eb35944e48f41c9b75c8aabc3db332, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1965974594}
+    - targetCorrespondingSourceObject: {fileID: 9127035701040949757, guid: 04eb35944e48f41c9b75c8aabc3db332, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1965974593}
+  m_SourcePrefab: {fileID: 100100000, guid: 04eb35944e48f41c9b75c8aabc3db332, type: 3}
+--- !u!1 &1965974592 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9127035701040949757, guid: 04eb35944e48f41c9b75c8aabc3db332, type: 3}
+  m_PrefabInstance: {fileID: 1965974591}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1965974593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965974592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bce96fba14f8417087b916fb0891901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxPlayers: 2
+--- !u!114 &1965974594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965974592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 8
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &2030608694
 GameObject:
   m_ObjectHideFlags: 0
@@ -1469,3 +1572,4 @@ SceneRoots:
   - {fileID: 1140315733}
   - {fileID: 1840356287}
   - {fileID: 1624818004}
+  - {fileID: 1965974591}
