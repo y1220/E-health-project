@@ -7,18 +7,20 @@ using UnityEngine.Networking;
 using UnityEngine.UI;
 
 
-public class Signin : MonoBehaviour
+public class Signup : MonoBehaviour
 {
+    public GameObject username;
     public GameObject email;
     public GameObject password;
 
+    private string Username;
     private string Email;
     private string Password;
 
     [SerializeField]
-    private string API_URL = "http://192.168.43.250:3000/login";
+    private string API_URL = "http://192.168.43.250:3000/players";
     
-    public void Login()
+    public void CreatePlayer()
     {
         StartCoroutine(Send(API_URL));
 
@@ -26,15 +28,21 @@ public class Signin : MonoBehaviour
 
     IEnumerator Send(string uri)
     {
+        // Component[] components = username.GetComponents(typeof(Component));
+        // foreach (Component component in components)
+        // {
+        //     Debug.Log(component.ToString());
+        // }
+        Username = username.GetComponent<TMPro.TMP_InputField>().text;
         Email = email.GetComponent<TMPro.TMP_InputField>().text;
         Password = password.GetComponent<TMPro.TMP_InputField>().text;
         
-        LoginData data = new LoginData(
-            Email, Password
+        PlayerData data = new PlayerData(
+            Username, Email, Password
         );
 
         string jsonData = JsonUtility.ToJson(data);
-        UnityWebRequest webRequest = new UnityWebRequest(uri, "GET");
+        UnityWebRequest webRequest = new UnityWebRequest(uri, "POST");
         byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonData);
         webRequest.uploadHandler = new UploadHandlerRaw(bodyRaw);
         webRequest.downloadHandler = new DownloadHandlerBuffer();

@@ -1431,7 +1431,7 @@ GameObject:
   - component: {fileID: 1843811564}
   - component: {fileID: 1843811563}
   - component: {fileID: 1843811562}
-  - component: {fileID: 1843811561}
+  - component: {fileID: 1843811565}
   m_Layer: 5
   m_Name: Continue button
   m_TagString: Untagged
@@ -1459,18 +1459,6 @@ RectTransform:
   m_AnchoredPosition: {x: 32.828, y: -190}
   m_SizeDelta: {x: 1421.1, y: 307.17}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1843811561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1843811559}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b87ffbda6e28047af9af4df1b0ab329c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1843811562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1515,8 +1503,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1843811561}
-        m_TargetAssemblyTypeName: JumpToIntroduction1, Assembly-CSharp
+      - m_Target: {fileID: 1843811565}
+        m_TargetAssemblyTypeName: JumpToSignin, Assembly-CSharp
         m_MethodName: StartBtn
         m_Mode: 1
         m_Arguments:
@@ -1565,6 +1553,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1843811559}
   m_CullTransparentMesh: 1
+--- !u!114 &1843811565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843811559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad8bdbbb203c8447283bc45e546976b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1846215118
 GameObject:
   m_ObjectHideFlags: 0

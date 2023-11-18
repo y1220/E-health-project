@@ -208,7 +208,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 83104891}
-        m_TargetAssemblyTypeName: JumpToSignin, Assembly-CSharp
+        m_TargetAssemblyTypeName: JumpToSignup, Assembly-CSharp
         m_MethodName: StartBtn
         m_Mode: 1
         m_Arguments:
