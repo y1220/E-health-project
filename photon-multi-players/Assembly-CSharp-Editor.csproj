@@ -45,8 +45,8 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets/Devion Games/Module Manager/Editor/UpdateNotificationWindow.cs" />
      <Compile Include="Assets/Devion Games/Utilities/Scripts/Editor/Collection Editor/ObjectCollectionEditor.cs" />
+     <Compile Include="Assets/Devion Games/Module Manager/Editor/UpdateNotificationWindow.cs" />
      <Compile Include="Assets/Devion Games/Utilities/Scripts/Editor/Asset/AssetWindow.cs" />
      <Compile Include="Assets/Devion Games/Utilities/Scripts/Editor/Internal/BuiltInResourcesWindow.cs" />
      <Compile Include="Assets/Devion Games/UI Widgets/Scripts/Editor/UIContainerInspector.cs" />
