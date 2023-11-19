@@ -416,7 +416,7 @@
      <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )" />
      <Folder Include="Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.7 )/png" />
      <Folder Include="Assets/BayatGames/Free Platform Game Assets/Water Animation/2.5D View/ai" />
-     <Folder Include="Assets/Resource" />
+     <Folder Include="Assets/Resources" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
      <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt" />
      <Folder Include="Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/png/Sliced/Model-1/2x" />

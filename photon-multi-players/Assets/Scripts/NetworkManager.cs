@@ -19,7 +19,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         } else
         {
             instance = this;
-            Debug.Log(gameObject);
+            // Debug.Log(gameObject);
             DontDestroyOnLoad(gameObject);
         }
     }
