@@ -5,11 +5,11 @@ using UnityEngine.Networking;
 
 public class APIManager : MonoBehaviour
 {
-    private string API_URL = "http://192.168.43.250:3000/players";
+    private string API_URL = "http://192.168.1.5:3000/players";
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(GetRequest(API_URL + "/1"));
+        StartCoroutine(GetRequest(API_URL + "/10"));
         // post request
         StartCoroutine(PostRequest(API_URL));
 

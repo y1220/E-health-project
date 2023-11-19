@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun.Demo.Cockpit;
 using UnityEngine;
+
 [System.Serializable]
 public class PlayerMonster
 {

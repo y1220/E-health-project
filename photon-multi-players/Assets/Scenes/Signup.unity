@@ -697,7 +697,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 792672376}
-        m_TargetAssemblyTypeName: Signin, Assembly-CSharp
+        m_TargetAssemblyTypeName: Signup, Assembly-CSharp
         m_MethodName: CreatePlayer
         m_Mode: 1
         m_Arguments:
@@ -801,7 +801,7 @@ MonoBehaviour:
   username: {fileID: 1379737704}
   email: {fileID: 958825104}
   password: {fileID: 1333289161}
-  API_URL: http://192.168.43.250:3000/players
+  API_URL: http://192.168.1.5:3000/players
 --- !u!1 &894751451
 GameObject:
   m_ObjectHideFlags: 0
@@ -2152,6 +2152,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Network Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 9127035701040949757, guid: 04eb35944e48f41c9b75c8aabc3db332, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2334,7 +2338,7 @@ GameObject:
   - component: {fileID: 2098273416}
   - component: {fileID: 2098273415}
   m_Layer: 0
-  m_Name: Signin
+  m_Name: Signup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

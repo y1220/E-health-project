@@ -16,7 +16,7 @@ public class Signin : MonoBehaviour
     private string Password;
 
     [SerializeField]
-    private string API_URL = "http://192.168.43.250:3000/login";
+    private string API_URL = "http://192.168.1.5:3000/login";
     
     public void Login()
     {
@@ -55,11 +55,7 @@ public class Signin : MonoBehaviour
             case UnityWebRequest.Result.Success:
                 Debug.Log("Received: " + webRequest.downloadHandler.text);
                 PlayerMonster player = JsonUtility.FromJson<PlayerMonster>(webRequest.downloadHandler.text);
-                NetworkManager.player_monster = player;
-                NetworkManager.username = player.username;
-                NetworkManager.email = player.email;
-                NetworkManager.userId = player.id;
-                Debug.Log(player.username);
+                Debug.Log(player.id + ": " + player.username);
                 break;
         }
     }

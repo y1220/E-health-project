@@ -18,7 +18,7 @@ public class Signup : MonoBehaviour
     private string Password;
 
     [SerializeField]
-    private string API_URL = "http://192.168.43.250:3000/players";
+    private string API_URL = "http://192.168.1.5:3000/players";
     
     public void CreatePlayer()
     {
@@ -28,11 +28,10 @@ public class Signup : MonoBehaviour
 
     IEnumerator Send(string uri)
     {
-        // Component[] components = username.GetComponents(typeof(Component));
-        // foreach (Component component in components)
-        // {
-        //     Debug.Log(component.ToString());
-        // }
+        Component[] components = username.GetComponents(typeof(Component));
+        foreach (Component component in components) {
+             Debug.Log(component.ToString());
+        }
         Username = username.GetComponent<TMPro.TMP_InputField>().text;
         Email = email.GetComponent<TMPro.TMP_InputField>().text;
         Password = password.GetComponent<TMPro.TMP_InputField>().text;
@@ -42,32 +41,29 @@ public class Signup : MonoBehaviour
         );
 
         string jsonData = JsonUtility.ToJson(data);
-        UnityWebRequest webRequest = new UnityWebRequest(uri, "POST");
+        UnityWebRequest webRequestSignup = new UnityWebRequest(uri, "POST");
         byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonData);
-        webRequest.uploadHandler = new UploadHandlerRaw(bodyRaw);
-        webRequest.downloadHandler = new DownloadHandlerBuffer();
+        webRequestSignup.uploadHandler = new UploadHandlerRaw(bodyRaw);
+        webRequestSignup.downloadHandler = new DownloadHandlerBuffer();
         // this is needed for ruby on rails
-        webRequest.SetRequestHeader("Content-Type", "application/json");
+        webRequestSignup.SetRequestHeader("Content-Type", "application/json");
 
-        yield return webRequest.SendWebRequest();
-        Debug.Log(webRequest.result);
-        switch (webRequest.result)
+        yield return webRequestSignup.SendWebRequest();
+        Debug.Log("Signup: returned response from rails");
+        Debug.Log("Signup " + webRequestSignup.result);
+        switch (webRequestSignup.result)
         {
             case UnityWebRequest.Result.ConnectionError:
             case UnityWebRequest.Result.DataProcessingError:
-                Debug.Log(": ERROR: " + webRequest.error);
+                Debug.Log(": ERROR: " + webRequestSignup.error);
                 break;
             case UnityWebRequest.Result.ProtocolError:
-                Debug.Log(": HTTP ERROR: " + webRequest.error);
+                Debug.Log(": HTTP ERROR: " + webRequestSignup.error);
                 break;
             case UnityWebRequest.Result.Success:
-                Debug.Log("Received: " + webRequest.downloadHandler.text);
-                PlayerMonster player = JsonUtility.FromJson<PlayerMonster>(webRequest.downloadHandler.text);
-                NetworkManager.player_monster = player;
-                NetworkManager.username = player.username;
-                NetworkManager.email = player.email;
-                NetworkManager.userId = player.id;
-                Debug.Log(player.username);
+                Debug.Log("Received: " + webRequestSignup.downloadHandler.text);
+                PlayerMonster playerMonster = JsonUtility.FromJson<PlayerMonster>(webRequestSignup.downloadHandler.text);
+                Debug.Log(playerMonster.id + ": " + playerMonster.username);
                 break;
         }
     }

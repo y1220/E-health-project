@@ -771,7 +771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   email: {fileID: 958825104}
   password: {fileID: 1333289161}
-  API_URL: http://192.168.43.250:3000/login
+  API_URL: http://192.168.1.5:3000/login
 --- !u!1 &894751451
 GameObject:
   m_ObjectHideFlags: 0
