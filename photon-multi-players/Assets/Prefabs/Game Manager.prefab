@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5348340284979383309}
   - component: {fileID: 2177307476435066657}
-  - component: {fileID: 3023108695847057280}
+  - component: {fileID: 9037187886230176775}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -45,10 +45,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6760327480809439dabc360161472e9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPrefabPath: 
-  spawnPoint: []
-  respawnTime: 0
---- !u!114 &3023108695847057280
+  playerPrefabPath: player_penguin
+  players: []
+  spawnPoint:
+  - {fileID: 0}
+  - {fileID: 0}
+  respawnTime: 4
+--- !u!114 &9037187886230176775
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

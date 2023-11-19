@@ -27,6 +27,22 @@ public class PlayerController : MonoBehaviourPun
 
     public static PlayerController me;
 
+    [PunRPC]
+    public void Initialized(Player player)
+    {
+        id = player.ActorNumber;
+        photonPlayer = player;
+        GameManager.instance.players[id - 1] = this;
+        if (player.IsLocal)
+        {
+            me = this;
+        }
+        else
+        {
+            rig.isKinematic = false;
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -47,10 +63,40 @@ public class PlayerController : MonoBehaviourPun
         // apply the value to our velocity
         rig.velocity = new Vector2(x, y) * moveSpeed;
 
+        //if (x != 0 || y != 0)
+        //{
+        //    playerAnim.SetBool("Move", true);
+//
+        //    if (x > 0)
+        //    {
+        //        photonView.RPC("FlipRight", RpcTarget.All);
+        //    }
+        //    else
+        //    {
+        //        photonView.RPC("FlipLeft", RpcTarget.All);
+        //    }
+        //}
+        //else
+        //{
+        //    playerAnim.SetBool("Move", false);
+        //}
+
     }
 
     private void Attack()
     {
 
+    }
+
+    [PunRPC]
+    void FlipRight()
+    {
+        sr.flipX = false;
+    }
+    
+    [PunRPC]
+    void FlipLeft()
+    {
+        sr.flipX = true;
     }
 }
