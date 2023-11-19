@@ -35,7 +35,7 @@ public class APIManager : MonoBehaviour
                     break;
                 case UnityWebRequest.Result.Success:
                     Debug.Log(pages[page] + ":\nReceived: " + webRequest.downloadHandler.text);
-                    PlayerData player = JsonUtility.FromJson<PlayerData>(webRequest.downloadHandler.text);
+                    PlayerMonster player = JsonUtility.FromJson<PlayerMonster>(webRequest.downloadHandler.text);
                     Debug.Log(player.username);
                     break;
             }
@@ -69,7 +69,7 @@ public class APIManager : MonoBehaviour
                 break;
             case UnityWebRequest.Result.Success:
                 Debug.Log("Received: " + webRequest.downloadHandler.text);
-                PlayerData player = JsonUtility.FromJson<PlayerData>(webRequest.downloadHandler.text);
+                PlayerMonster player = JsonUtility.FromJson<PlayerMonster>(webRequest.downloadHandler.text);
                 Debug.Log(player.username);
                 break;
         }

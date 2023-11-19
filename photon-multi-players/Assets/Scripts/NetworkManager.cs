@@ -7,9 +7,13 @@ using Photon.Realtime;
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
     public int maxPlayers; // max number of players
+    public static string username;
+    public static string email;
+    public static int userId;
 
     // singleton
     public static NetworkManager instance;
+    public static PlayerMonster player_monster;
 
     private void Awake()
     {
@@ -51,5 +55,13 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     public void ChangeScene(string sceneName)
     {
         PhotonNetwork.LoadLevel(sceneName);
+    }
+    
+    public void LoginPlayerMonster(PlayerMonster playerMonster)
+    {
+        player_monster = playerMonster;
+        userId = playerMonster.id;
+        username = playerMonster.username;
+        email = playerMonster.email;
     }
 }

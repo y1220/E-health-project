@@ -54,7 +54,11 @@ public class Signin : MonoBehaviour
                 break;
             case UnityWebRequest.Result.Success:
                 Debug.Log("Received: " + webRequest.downloadHandler.text);
-                PlayerData player = JsonUtility.FromJson<PlayerData>(webRequest.downloadHandler.text);
+                PlayerMonster player = JsonUtility.FromJson<PlayerMonster>(webRequest.downloadHandler.text);
+                NetworkManager.player_monster = player;
+                NetworkManager.username = player.username;
+                NetworkManager.email = player.email;
+                NetworkManager.userId = player.id;
                 Debug.Log(player.username);
                 break;
         }
