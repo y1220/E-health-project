@@ -67,15 +67,15 @@ public class PlayerController : MonoBehaviourPun
         {
             playerAnim.SetBool("Move", true);
 
-        //    if (x > 0)
-        //    {
-        //        photonView.RPC("FlipRight", RpcTarget.All);
-        //    }
-        //    else
-        //    {
-        //        photonView.RPC("FlipLeft", RpcTarget.All);
-        //    }
-        }
+            if (x > 0)
+            {
+                photonView.RPC("FlipRight", RpcTarget.All);
+            }
+            else
+            {
+                photonView.RPC("FlipLeft", RpcTarget.All);
+            }
+            }
         else
         {
             playerAnim.SetBool("Move", false);
