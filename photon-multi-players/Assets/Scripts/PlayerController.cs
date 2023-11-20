@@ -63,10 +63,10 @@ public class PlayerController : MonoBehaviourPun
         // apply the value to our velocity
         rig.velocity = new Vector2(x, y) * moveSpeed;
 
-        //if (x != 0 || y != 0)
-        //{
-        //    playerAnim.SetBool("Move", true);
-//
+        if (x != 0 || y != 0)
+        {
+            playerAnim.SetBool("Move", true);
+
         //    if (x > 0)
         //    {
         //        photonView.RPC("FlipRight", RpcTarget.All);
@@ -75,11 +75,11 @@ public class PlayerController : MonoBehaviourPun
         //    {
         //        photonView.RPC("FlipLeft", RpcTarget.All);
         //    }
-        //}
-        //else
-        //{
-        //    playerAnim.SetBool("Move", false);
-        //}
+        }
+        else
+        {
+            playerAnim.SetBool("Move", false);
+        }
 
     }
 
