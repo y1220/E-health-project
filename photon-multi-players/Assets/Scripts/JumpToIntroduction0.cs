@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Photon.Pun;
 
-public class JumpToSurvey : MonoBehaviour
+
+public class JumpToIntroduction0 : MonoBehaviour
 {
     public void StartBtn()
     {
-        NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "Survey");
-        //SceneManager.LoadScene("Survey");
+        SceneManager.LoadScene("Introduction-0");
     }
 }

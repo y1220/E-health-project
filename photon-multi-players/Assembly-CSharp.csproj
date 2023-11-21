@@ -74,6 +74,7 @@
      <Compile Include="Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs" />
      <Compile Include="Assets/Scripts/JumpToIntroduction2.cs" />
      <Compile Include="Assets/Scripts/SendToGoogle.cs" />
+     <Compile Include="Assets/Scripts/JumpToIntroduction0.cs" />
      <Compile Include="Assets/Scripts/JumpToIntroduction7.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />

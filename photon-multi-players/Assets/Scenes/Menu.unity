@@ -2015,9 +2015,9 @@ RectTransform:
   - {fileID: 1423852833}
   m_Father: {fileID: 1918017722}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 192.25, y: -182.62021}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 384.5, y: 111.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1008643565
@@ -2391,9 +2391,9 @@ RectTransform:
   - {fileID: 967473350}
   m_Father: {fileID: 1918017722}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -379.1952}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1218732878
@@ -2652,9 +2652,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1245000132}
-        m_TargetAssemblyTypeName: JumpToIntroduction1, Assembly-CSharp
-        m_MethodName: StartBtn
+      - m_Target: {fileID: 1704111586}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: OnStartGameButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2711,7 +2711,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1245000127}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b87ffbda6e28047af9af4df1b0ab329c, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e0d809d89db74b9b86474b1cb066cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1281558754
@@ -3973,9 +3973,9 @@ RectTransform:
   - {fileID: 1836959149}
   m_Father: {fileID: 1918017722}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 192.25, y: -308.6702}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 384.5, y: 111.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1699621898
@@ -4370,9 +4370,9 @@ RectTransform:
   - {fileID: 1281558755}
   m_Father: {fileID: 1918017722}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 192.5008, y: -56.0476}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 385.0016, y: 112.0952}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1845122642
