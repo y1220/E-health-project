@@ -39,7 +39,8 @@ public class PlayerController : MonoBehaviourPun
         }
         else
         {
-            rig.isKinematic = false;
+            // rig.isKinematic = false;
+            rig.simulated = false;
         }
     }
 
