@@ -123,6 +123,7 @@
      <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/NamePickGui.cs" />
      <Compile Include="Assets/Photon/PhotonChat/Demos/Common/TextButtonTransition.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets/Scripts/Pickups.cs" />
      <Compile Include="Assets/Scripts/JumpToSignup.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets/BayatGames/Free Platform Game Assets/GUI ( Update 1.7 )" />
@@ -291,6 +292,7 @@
      <Folder Include="Assets/BayatGames/Free Platform Game Assets/Coin Animation/png" />
      <Folder Include="Assets/Assets/Player/Player6/Idle" />
      <Folder Include="Assets/BayatGames/Free Platform Game Assets/Water Animation/2D view ( Update 1.9 )/256x256" />
+     <Folder Include="Assets/Resources/planet" />
      <Folder Include="Assets/Photon/PhotonChat/Demos/DemoChat/Files" />
      <Folder Include="Assets/materials" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />

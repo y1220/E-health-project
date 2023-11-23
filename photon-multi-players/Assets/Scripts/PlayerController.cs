@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
+using UnityEditor;
 
 public class PlayerController : MonoBehaviourPun
 {
@@ -33,6 +34,12 @@ public class PlayerController : MonoBehaviourPun
         id = player.ActorNumber;
         photonPlayer = player;
         GameManager.instance.players[id - 1] = this;
+
+        if (PlayerPrefs.HasKey("Gold"))
+        {
+            gold = PlayerPrefs.GetInt("Gold");
+        }
+        
         if (player.IsLocal)
         {
             me = this;
@@ -100,6 +107,12 @@ public class PlayerController : MonoBehaviourPun
     {
         sr.flipX = true;
     }
-    
+
+    [PunRPC]
+    void GetGold(int goldToGive)
+    {
+        gold += goldToGive;
+        PlayerPrefs.SetInt("Gold", gold);
+    }
     
 }
