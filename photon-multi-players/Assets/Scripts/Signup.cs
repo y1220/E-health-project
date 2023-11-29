@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.Serialization.Json;
 using System.Xml;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
@@ -56,14 +57,17 @@ public class Signup : MonoBehaviour
             case UnityWebRequest.Result.ConnectionError:
             case UnityWebRequest.Result.DataProcessingError:
                 Debug.Log(": ERROR: " + webRequestSignup.error);
+                SceneManager.LoadScene("Signup");
                 break;
             case UnityWebRequest.Result.ProtocolError:
                 Debug.Log(": HTTP ERROR: " + webRequestSignup.error);
+                SceneManager.LoadScene("Signup");
                 break;
             case UnityWebRequest.Result.Success:
                 Debug.Log("Received: " + webRequestSignup.downloadHandler.text);
                 PlayerMonster playerMonster = JsonUtility.FromJson<PlayerMonster>(webRequestSignup.downloadHandler.text);
                 Debug.Log(playerMonster.id + ": " + playerMonster.username);
+                SceneManager.LoadScene("Survey");
                 break;
         }
     }
