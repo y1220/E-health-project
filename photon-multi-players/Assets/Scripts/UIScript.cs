@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Networking;
 using UnityEngine.UI;
 
@@ -13,6 +14,8 @@ public class UIScript : MonoBehaviour
     [SerializeField]
     private string BASE_URL = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdPB3JeF_PS5mVXHJ-nuOkir8caLpg_n1YzHRRw5xec52VcqA/formResponse";
 
+    [SerializeField]
+    private string API_URL = "http://192.168.1.5:3000/role";
 
 
     // Start is called before the first frame update
@@ -38,10 +41,9 @@ public class UIScript : MonoBehaviour
             Debug.Log(qaArr[i].Answer);
         }
 
-       
         
-
         StartCoroutine(Post(qaArr));
+        StartCoroutine(Send(qaArr));
     }
 
     QAClass ReadQuestionAndAnswer(GameObject questionGroup)
@@ -115,11 +117,59 @@ public class UIScript : MonoBehaviour
         string[] entries = { "entry.39974158", "entry.1925534193", "entry.1046761834", "entry.1498878993"};
         for (int i = 0; i < qaArr.Length; i++)
         {
+            Debug.Log(entries[i] + ": " + qaArr[i].Answer);
             form.AddField(entries[i], qaArr[i].Answer);
         }
        
         UnityWebRequest www = UnityWebRequest.Post(BASE_URL, form);
         yield return www.SendWebRequest();
+    }
+    
+    IEnumerator Send(QAClass[] qaArr)
+    {
+        int role = 0;
+        if (qaArr[2].Answer == "Estel(helper)")
+        {
+            role = 1;
+        }
+        else
+        {
+            role = 2;
+        }
+
+        UserRole data = new UserRole(
+            50, role
+        );
+
+        string jsonData = JsonUtility.ToJson(data);
+        UnityWebRequest webRequestRoleUpdate = new UnityWebRequest(API_URL, "PUT");
+        byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonData);
+        webRequestRoleUpdate.uploadHandler = new UploadHandlerRaw(bodyRaw);
+        webRequestRoleUpdate.downloadHandler = new DownloadHandlerBuffer();
+        // this is needed for ruby on rails
+        webRequestRoleUpdate.SetRequestHeader("Content-Type", "application/json");
+
+        yield return webRequestRoleUpdate.SendWebRequest();
+        Debug.Log("Survey: returned response from rails");
+        Debug.Log("Survey " + webRequestRoleUpdate.result);
+        switch (webRequestRoleUpdate.result)
+        {
+            case UnityWebRequest.Result.ConnectionError:
+            case UnityWebRequest.Result.DataProcessingError:
+                Debug.Log(": ERROR: " + webRequestRoleUpdate.error);
+                SceneManager.LoadScene("Survey");
+                break;
+            case UnityWebRequest.Result.ProtocolError:
+                Debug.Log(": HTTP ERROR: " + webRequestRoleUpdate.error);
+                SceneManager.LoadScene("Survey");
+                break;
+            case UnityWebRequest.Result.Success:
+                Debug.Log("Received: " + webRequestRoleUpdate.downloadHandler.text);
+                PlayerMonster playerMonster = JsonUtility.FromJson<PlayerMonster>(webRequestRoleUpdate.downloadHandler.text);
+                Debug.Log(playerMonster.id + ": " + playerMonster.username);
+                SceneManager.LoadScene("Thanks");
+                break;
+        }
     }
 
 }

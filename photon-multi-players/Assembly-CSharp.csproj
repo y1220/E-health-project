@@ -124,6 +124,7 @@
      <Compile Include="Assets/Photon/PhotonChat/Demos/Common/TextButtonTransition.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
      <Compile Include="Assets/Scripts/Pickups.cs" />
+     <Compile Include="Assets/Scripts/UserRole.cs" />
      <Compile Include="Assets/Scripts/JumpToSignup.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets/BayatGames/Free Platform Game Assets/GUI ( Update 1.7 )" />

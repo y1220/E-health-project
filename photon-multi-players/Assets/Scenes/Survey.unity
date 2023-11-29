@@ -2366,18 +2366,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1783149809}
-        m_TargetAssemblyTypeName: JumpToThanks, Assembly-CSharp
-        m_MethodName: StartBtn
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &862848117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5495,6 +5483,7 @@ MonoBehaviour:
   qaArr: []
   AnswerPanel: {fileID: 0}
   BASE_URL: https://docs.google.com/forms/u/0/d/e/1FAIpQLSdPB3JeF_PS5mVXHJ-nuOkir8caLpg_n1YzHRRw5xec52VcqA/formResponse
+  API_URL: http://192.168.1.5:3000/role
 --- !u!4 &1783149808
 Transform:
   m_ObjectHideFlags: 0
