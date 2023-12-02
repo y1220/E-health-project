@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class JumpToHome : MonoBehaviour
 {
-    private const string SceneName = "Home";
+    private const string SceneName = "Planets";
 
     public void StartBtn()
     {

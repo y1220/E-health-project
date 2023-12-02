@@ -59,6 +59,7 @@
      <Compile Include="Assets/Scripts/JumpToNight.cs" />
      <Compile Include="Assets/Scripts/PlayerData.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
+     <Compile Include="Assets/Scripts/JumpToProfile.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
      <Compile Include="Assets/Scripts/NetworkManager.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
@@ -68,6 +69,7 @@
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
+     <Compile Include="Assets/Scripts/JumpToServices.cs" />
      <Compile Include="Assets/Photon/PhotonChat/Demos/Common/OnStartDelete.cs" />
      <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/ChatGui.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />

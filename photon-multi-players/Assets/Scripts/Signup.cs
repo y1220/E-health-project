@@ -40,6 +40,10 @@ public class Signup : MonoBehaviour
         PlayerData data = new PlayerData(
             Username, Email, Password
         );
+        
+        Debug.Log(Username);
+        Debug.Log(Email);
+        Debug.Log(Password);
 
         string jsonData = JsonUtility.ToJson(data);
         UnityWebRequest webRequestSignup = new UnityWebRequest(uri, "POST");
@@ -58,6 +62,8 @@ public class Signup : MonoBehaviour
             case UnityWebRequest.Result.DataProcessingError:
                 Debug.Log(": ERROR: " + webRequestSignup.error);
                 SceneManager.LoadScene("Signup");
+                //SceneManager.LoadScene("Survey");
+                //SceneManager.LoadScene("Thanks");
                 break;
             case UnityWebRequest.Result.ProtocolError:
                 Debug.Log(": HTTP ERROR: " + webRequestSignup.error);

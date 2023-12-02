@@ -684,9 +684,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2018321977}
-        m_TargetAssemblyTypeName: SendToGoogle, Assembly-CSharp
-        m_MethodName: Send
+      - m_Target: {fileID: 792672376}
+        m_TargetAssemblyTypeName: Signup, Assembly-CSharp
+        m_MethodName: CreatePlayer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -696,9 +696,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 792672376}
-        m_TargetAssemblyTypeName: Signup, Assembly-CSharp
-        m_MethodName: CreatePlayer
+      - m_Target: {fileID: 792672375}
+        m_TargetAssemblyTypeName: JumpToThanks, Assembly-CSharp
+        m_MethodName: StartBtn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
