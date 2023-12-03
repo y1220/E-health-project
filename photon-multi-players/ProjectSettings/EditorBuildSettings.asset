@@ -125,4 +125,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EndingIndo.unity
     guid: 58402ee01f7ef485fb426584ebbb7e44
+  - enabled: 1
+    path: Assets/Scenes/TakeCarePlant.unity
+    guid: 730e18a04c74345308e488282a83d781
   m_configObjects: {}

@@ -61,6 +61,7 @@
      <Compile Include="Assets/Scripts/PlayerData.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
      <Compile Include="Assets/Scripts/JumpToProfile.cs" />
+     <Compile Include="Assets/Scripts/JumpToTakeCarePlant.cs" />
      <Compile Include="Assets/Scripts/JumpToFelmeDoor3.cs" />
      <Compile Include="Assets/Scripts/JumpToHeldaDoor2.cs" />
      <Compile Include="Assets/Scripts/JumpToEndingIndo.cs" />

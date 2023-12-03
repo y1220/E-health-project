@@ -42,7 +42,7 @@ public class Pickups : MonoBehaviour
                 NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "IndoLibrary");
             }else if (types == PickupTypes.CryingPlant)
             {
-                NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "IndoCryingPlant");
+                NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "TakeCarePlant");
             }
             
             PhotonNetwork.Destroy(gameObject);
