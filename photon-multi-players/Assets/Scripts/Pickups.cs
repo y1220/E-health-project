@@ -7,7 +7,8 @@ using Photon.Pun;
 public enum PickupTypes
 {
     Gold,
-    Health
+    Door,
+    Discussion
 }
 
 public class Pickups : MonoBehaviour
@@ -28,9 +29,12 @@ public class Pickups : MonoBehaviour
             {
                 Debug.Log("hi");
                 player.photonView.RPC("GetGold", player.photonPlayer, value);
-            }else if (types == PickupTypes.Health)
+            }else if (types == PickupTypes.Door)
             {
                 NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "IndoDoors");
+            }else if (types == PickupTypes.Discussion)
+            {
+                NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "IndoIndication");
             }
             
             PhotonNetwork.Destroy(gameObject);
