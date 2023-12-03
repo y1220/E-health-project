@@ -86,4 +86,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/IndoIndication.unity
     guid: 7fab8d15876db47a5a65d7f137c37c5b
+  - enabled: 1
+    path: Assets/Scenes/Helda.unity
+    guid: 97b660627181d4167bb87aecae4ceb6a
+  - enabled: 1
+    path: Assets/Scenes/HeldaDoors.unity
+    guid: 12ea52f90f77d4f93b326dfc1cde5c70
+  - enabled: 1
+    path: Assets/Scenes/FelmeDoors.unity
+    guid: 9e3882d2166b548c9937bc2c78158cc8
+  - enabled: 1
+    path: Assets/Scenes/Felme.unity
+    guid: a73309e39103f4e7a9f48de36f32d351
   m_configObjects: {}
