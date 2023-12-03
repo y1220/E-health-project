@@ -65,4 +65,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Services.unity
     guid: a7198db0dcfca474ab1e93b7924987db
+  - enabled: 1
+    path: Assets/Scenes/Indo.unity
+    guid: e5f3b2d4739644e5a8a1de3b1c5e4b36
+  - enabled: 1
+    path: Assets/Scenes/IndoDoors.unity
+    guid: 1258af57457404df69f4766d90a5a7fe
   m_configObjects: {}

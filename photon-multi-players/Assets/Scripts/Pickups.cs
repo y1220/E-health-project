@@ -28,6 +28,9 @@ public class Pickups : MonoBehaviour
             {
                 Debug.Log("hi");
                 player.photonView.RPC("GetGold", player.photonPlayer, value);
+            }else if (types == PickupTypes.Health)
+            {
+                NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "IndoDoors");
             }
             
             PhotonNetwork.Destroy(gameObject);

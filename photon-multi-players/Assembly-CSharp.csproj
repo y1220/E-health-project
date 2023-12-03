@@ -100,6 +100,7 @@
      <Compile Include="Assets/Scripts/JumpToHome.cs" />
      <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/FriendItem.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
+     <Compile Include="Assets/Scripts/JumpToIndo.cs" />
      <Compile Include="Assets/Scripts/PlayerMonster.cs" />
      <Compile Include="Assets/Scripts/Menu.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" />
@@ -124,6 +125,7 @@
      <Compile Include="Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs" />
      <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/NamePickGui.cs" />
      <Compile Include="Assets/Photon/PhotonChat/Demos/Common/TextButtonTransition.cs" />
+     <Compile Include="Assets/Scripts/JumpToIndoDoors.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
      <Compile Include="Assets/Scripts/Pickups.cs" />
      <Compile Include="Assets/Scripts/UserRole.cs" />
