@@ -1334,9 +1334,7 @@ GameObject:
   - component: {fileID: 987200968}
   - component: {fileID: 987200967}
   - component: {fileID: 987200966}
-  - component: {fileID: 987200965}
   - component: {fileID: 987200969}
-  - component: {fileID: 987200970}
   m_Layer: 5
   m_Name: Door1Buttons
   m_TagString: Untagged
@@ -1364,18 +1362,6 @@ RectTransform:
   m_AnchoredPosition: {x: -250.34796, y: 56.260807}
   m_SizeDelta: {x: 69.65, y: 92.7024}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &987200965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 987200963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 795b63e93201c4d2d995977cdc84dc13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &987200966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1420,8 +1406,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 987200970}
-        m_TargetAssemblyTypeName: JumpToIndaDoor1, Assembly-CSharp
+      - m_Target: {fileID: 987200969}
+        m_TargetAssemblyTypeName: JumpToHeldaDoor1, Assembly-CSharp
         m_MethodName: StartBtn
         m_Mode: 1
         m_Arguments:
@@ -1479,19 +1465,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 987200963}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 645003dd38bee4fe0970bd5aa9fd1522, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &987200970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 987200963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1195740c50074ae1b67523baba8dfe7, type: 3}
+  m_Script: {fileID: 11500000, guid: 47ae87d9b9e2341cdbe11c17f09df22a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1038059077
@@ -1989,8 +1963,6 @@ GameObject:
   - component: {fileID: 1269848450}
   - component: {fileID: 1269848449}
   - component: {fileID: 1269848448}
-  - component: {fileID: 1269848447}
-  - component: {fileID: 1269848446}
   - component: {fileID: 1269848451}
   m_Layer: 5
   m_Name: Door2Buttons
@@ -2019,30 +1991,6 @@ RectTransform:
   m_AnchoredPosition: {x: -4, y: 53}
   m_SizeDelta: {x: 69.65, y: 92.7024}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1269848446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1269848444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 645003dd38bee4fe0970bd5aa9fd1522, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1269848447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1269848444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 795b63e93201c4d2d995977cdc84dc13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1269848448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2088,7 +2036,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1269848451}
-        m_TargetAssemblyTypeName: JumpToIndaDoor2, Assembly-CSharp
+        m_TargetAssemblyTypeName: JumpToHeldaDoor2, Assembly-CSharp
         m_MethodName: StartBtn
         m_Mode: 1
         m_Arguments:
@@ -2146,7 +2094,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1269848444}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a2a53d40861f4fcd9c8072bbf83f0a6, type: 3}
+  m_Script: {fileID: 11500000, guid: 0c99f13f67a674fab8ec672a298f8482, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1273369501
@@ -2523,8 +2471,6 @@ GameObject:
   - component: {fileID: 1429226507}
   - component: {fileID: 1429226506}
   - component: {fileID: 1429226505}
-  - component: {fileID: 1429226504}
-  - component: {fileID: 1429226503}
   - component: {fileID: 1429226508}
   m_Layer: 5
   m_Name: Door3Buttons
@@ -2553,30 +2499,6 @@ RectTransform:
   m_AnchoredPosition: {x: 242, y: 55}
   m_SizeDelta: {x: 69.65, y: 92.7024}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1429226503
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1429226501}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 645003dd38bee4fe0970bd5aa9fd1522, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1429226504
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1429226501}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 795b63e93201c4d2d995977cdc84dc13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1429226505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2622,7 +2544,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1429226508}
-        m_TargetAssemblyTypeName: JumpToIndaDoor3, Assembly-CSharp
+        m_TargetAssemblyTypeName: JumpToHeldaDoor3, Assembly-CSharp
         m_MethodName: StartBtn
         m_Mode: 1
         m_Arguments:
@@ -2680,7 +2602,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1429226501}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d885cf54223844b589a1b4970bd13937, type: 3}
+  m_Script: {fileID: 11500000, guid: 396fd54360efb49f78af5cfaf7ba3050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1697224490
