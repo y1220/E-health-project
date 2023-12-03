@@ -8,7 +8,9 @@ public enum PickupTypes
 {
     Gold,
     Door,
-    Discussion
+    Discussion,
+    Library,
+    CryingPlant
 }
 
 public class Pickups : MonoBehaviour
@@ -35,6 +37,12 @@ public class Pickups : MonoBehaviour
             }else if (types == PickupTypes.Discussion)
             {
                 NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "IndoIndication");
+            }else if (types == PickupTypes.Library)
+            {
+                NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "IndoLibrary");
+            }else if (types == PickupTypes.CryingPlant)
+            {
+                NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "IndoCryingPlant");
             }
             
             PhotonNetwork.Destroy(gameObject);

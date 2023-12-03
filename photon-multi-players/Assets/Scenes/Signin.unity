@@ -612,6 +612,7 @@ GameObject:
   - component: {fileID: 792672371}
   - component: {fileID: 792672376}
   - component: {fileID: 792672375}
+  - component: {fileID: 792672377}
   m_Layer: 6
   m_Name: Send
   m_TagString: Untagged
@@ -695,8 +696,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 792672375}
-        m_TargetAssemblyTypeName: JumpToThanks, Assembly-CSharp
+      - m_Target: {fileID: 792672377}
+        m_TargetAssemblyTypeName: JumpToHome, Assembly-CSharp
         m_MethodName: StartBtn
         m_Mode: 1
         m_Arguments:
@@ -772,6 +773,18 @@ MonoBehaviour:
   email: {fileID: 958825104}
   password: {fileID: 1333289161}
   API_URL: http://192.168.1.5:3000/login
+--- !u!114 &792672377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792672369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e3d43b109b64c30b8adc8371638f72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &894751451
 GameObject:
   m_ObjectHideFlags: 0
@@ -1600,6 +1613,10 @@ PrefabInstance:
     - target: {fileID: 3816153738752718539, guid: 04eb35944e48f41c9b75c8aabc3db332, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8101559735666185831, guid: 04eb35944e48f41c9b75c8aabc3db332, type: 3}
+      propertyPath: sceneViewId
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9127035701040949757, guid: 04eb35944e48f41c9b75c8aabc3db332, type: 3}
       propertyPath: m_Name

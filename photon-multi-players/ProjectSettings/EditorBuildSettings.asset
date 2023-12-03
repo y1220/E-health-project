@@ -110,4 +110,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HeldaDoor3.unity
     guid: a4f543caab04a47479cc0213f81be210
+  - enabled: 1
+    path: Assets/Scenes/IndoDoor2.unity
+    guid: 1baa29984a86c4fc08ceb14849befdba
+  - enabled: 1
+    path: Assets/Scenes/IndoDoor3.unity
+    guid: 1fd7c2c87f0234ce0a813fc0c46f49ed
+  - enabled: 1
+    path: Assets/Scenes/WelcomeIndoDiscussion.unity
+    guid: 0987a9607cefa473b867224fcf98ed63
+  - enabled: 1
+    path: Assets/Scenes/SeekForHelp.unity
+    guid: b8ecf57c424fd4c6c87063db853e2db0
+  - enabled: 1
+    path: Assets/Scenes/EndingIndo.unity
+    guid: 58402ee01f7ef485fb426584ebbb7e44
   m_configObjects: {}

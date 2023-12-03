@@ -63,6 +63,7 @@
      <Compile Include="Assets/Scripts/JumpToProfile.cs" />
      <Compile Include="Assets/Scripts/JumpToFelmeDoor3.cs" />
      <Compile Include="Assets/Scripts/JumpToHeldaDoor2.cs" />
+     <Compile Include="Assets/Scripts/JumpToEndingIndo.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
      <Compile Include="Assets/Scripts/JumpToHelda.cs" />
      <Compile Include="Assets/Scripts/NetworkManager.cs" />
@@ -71,8 +72,10 @@
      <Compile Include="Assets/Scripts/JumpToHeldaDoor1.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" />
      <Compile Include="Assets/Scripts/JumpToIndoDoor3.cs" />
+     <Compile Include="Assets/Scripts/JumpToIndoWelcomeIndoDiscussion.cs" />
      <Compile Include="Assets/Scripts/JumpToThanks.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
+     <Compile Include="Assets/Scripts/JumpToSeekForHelp.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
      <Compile Include="Assets/Scripts/JumpToServices.cs" />

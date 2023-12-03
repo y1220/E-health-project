@@ -612,6 +612,7 @@ GameObject:
   - component: {fileID: 792672371}
   - component: {fileID: 792672374}
   - component: {fileID: 792672376}
+  - component: {fileID: 792672377}
   - component: {fileID: 792672375}
   m_Layer: 6
   m_Name: Send
@@ -696,8 +697,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 792672375}
-        m_TargetAssemblyTypeName: JumpToThanks, Assembly-CSharp
+      - m_Target: {fileID: 792672377}
+        m_TargetAssemblyTypeName: JumpToSurvey, Assembly-CSharp
         m_MethodName: StartBtn
         m_Mode: 1
         m_Arguments:
@@ -790,6 +791,18 @@ MonoBehaviour:
   email: {fileID: 958825104}
   password: {fileID: 1333289161}
   API_URL: http://192.168.1.5:3000/players
+--- !u!114 &792672377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792672369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 684c92543f21148f8a4b29251e52503e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &894751451
 GameObject:
   m_ObjectHideFlags: 0
