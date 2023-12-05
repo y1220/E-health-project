@@ -19,13 +19,12 @@ public class PlayerController : MonoBehaviourPun
     public Rigidbody2D rig;
     public Player photonPlayer;
     public SpriteRenderer sr;
-    // public HeaderInfo headerInfo;
+    //public HeaderInfo headerInfo;
     public float moveSpeed;
     public int gold;
     public int currentHP;
     public int maxHP;
     public bool dead;
-
     public static PlayerController me;
     public HeaderInformation headerInfo;
 
@@ -35,7 +34,13 @@ public class PlayerController : MonoBehaviourPun
         id = player.ActorNumber;
         photonPlayer = player;
         GameManager.instance.players[id - 1] = this;
-        //headerInfo.Initialized(player.NickName);
+        Debug.Log("player controller: " + player.NickName);
+        //if (!headerInfo)
+        //{
+        //    HeaderInformation headerInfo = GetComponent<HeaderInformation>();
+        //}
+
+        headerInfo.Initialized(player.NickName);
 
         if (PlayerPrefs.HasKey("Gold"))
         {
