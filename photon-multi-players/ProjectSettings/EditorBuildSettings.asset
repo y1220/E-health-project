@@ -128,4 +128,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TakeCarePlant.unity
     guid: 730e18a04c74345308e488282a83d781
+  - enabled: 1
+    path: Assets/Scenes/PlayerSelection.unity
+    guid: 76786b2690eff4255b4c89e2c1c29212
   m_configObjects: {}

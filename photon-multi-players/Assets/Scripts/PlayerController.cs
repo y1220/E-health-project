@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviourPun
     public bool dead;
 
     public static PlayerController me;
+    public HeaderInformation headerInfo;
 
     [PunRPC]
     public void Initialized(Player player)
@@ -34,6 +35,7 @@ public class PlayerController : MonoBehaviourPun
         id = player.ActorNumber;
         photonPlayer = player;
         GameManager.instance.players[id - 1] = this;
+        //headerInfo.Initialized(player.NickName);
 
         if (PlayerPrefs.HasKey("Gold"))
         {
@@ -73,7 +75,7 @@ public class PlayerController : MonoBehaviourPun
 
         if (x != 0 || y != 0)
         {
-            playerAnim.SetBool("Move", true);
+            //playerAnim.SetBool("Move", true);
 
             if (x > 0)
             {
@@ -83,10 +85,10 @@ public class PlayerController : MonoBehaviourPun
             {
                 photonView.RPC("FlipLeft", RpcTarget.All);
             }
-            }
+        }
         else
         {
-            playerAnim.SetBool("Move", false);
+            //playerAnim.SetBool("Move", false);
         }
 
     }

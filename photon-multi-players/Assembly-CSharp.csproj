@@ -51,6 +51,7 @@
      <Compile Include="Assets/Scripts/JumpToFelmeDoors.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
+     <Compile Include="Assets/Scripts/HeaderInformation.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
@@ -87,6 +88,7 @@
      <Compile Include="Assets/Scripts/JumpToIndoDiscussion.cs" />
      <Compile Include="Assets/Scripts/JumpToIntroduction2.cs" />
      <Compile Include="Assets/Scripts/SendToGoogle.cs" />
+     <Compile Include="Assets/Scripts/PlayerSelector.cs" />
      <Compile Include="Assets/Scripts/JumpToIndoDoor1.cs" />
      <Compile Include="Assets/Scripts/JumpToIntroduction0.cs" />
      <Compile Include="Assets/Scripts/JumpToIntroduction7.cs" />
@@ -101,6 +103,7 @@
      <Compile Include="Assets/Scripts/JumpToFelmeDoor2.cs" />
      <Compile Include="Assets/Scripts/JumpToIntroduction3.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
+     <Compile Include="Assets/Scripts/PlayerModelName.cs" />
      <Compile Include="Assets/Scripts/JumpToIntroduction4.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
      <Compile Include="Assets/Scripts/JumpToIntroduction6.cs" />

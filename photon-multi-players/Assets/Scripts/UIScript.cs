@@ -167,7 +167,7 @@ public class UIScript : MonoBehaviour
                 Debug.Log("Received: " + webRequestRoleUpdate.downloadHandler.text);
                 PlayerMonster playerMonster = JsonUtility.FromJson<PlayerMonster>(webRequestRoleUpdate.downloadHandler.text);
                 Debug.Log(playerMonster.id + ": " + playerMonster.username);
-                SceneManager.LoadScene("Thanks");
+                SceneManager.LoadScene("PlayerSelection");
                 break;
         }
     }

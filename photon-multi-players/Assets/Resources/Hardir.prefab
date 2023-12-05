@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 574414593446522}
   - component: {fileID: 9063467665518898748}
   m_Layer: 7
-  m_Name: player_monster1
+  m_Name: Hardir
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34,8 +34,8 @@ Transform:
   m_GameObject: {fileID: 2211238923338436363}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.0938, y: -10.3678, z: 0}
-  m_LocalScale: {x: 2.0542, y: 2.1084, z: 1}
+  m_LocalPosition: {x: 6.8537, y: -14.1274, z: 0}
+  m_LocalScale: {x: 0.7886073, y: 0.63976276, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7650801339107993877}
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_SortingLayerID: -368240143
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: adc5bd523370fdb46bd1337e9c4a46a6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 059f6cb177a4d4efc9d7276215b99d5f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -144,7 +144,7 @@ Animator:
   m_GameObject: {fileID: 2211238923338436363}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b4ae64f1c53e64c1eb50ee47af810b43, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -187,18 +187,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.024384484, y: 0.25962606}
+  m_Offset: {x: 0.085890055, y: 0.086505055}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.342741, y: 0.16}
-    oldSize: {x: 1.28, y: 1.28}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.12, y: 5.12}
     newSize: {x: 0.47, y: 0.54}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5252689, y: 0.6794241}
+  m_Size: {x: 2.9513006, y: 4.488077}
   m_EdgeRadius: 0
 --- !u!50 &8294593884356324893
 Rigidbody2D:
@@ -281,10 +281,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowLayerWeightsInspector: 1
   ShowParameterInspector: 1
-  m_SynchronizeParameters:
-  - Type: 4
-    SynchronizeType: 1
-    Name: Move
+  m_SynchronizeParameters: []
   m_SynchronizeLayers:
   - SynchronizeType: 0
     LayerIndex: 0

@@ -46,7 +46,8 @@ public class GameManager : MonoBehaviourPun
     void SpawnPlayer()
     {
         // spawn player randomly in spawn point list position
-        GameObject playerObject = PhotonNetwork.Instantiate(playerPrefabPath, spawnPoint[Random.Range(0, spawnPoint.Length)].position, Quaternion.identity);
+        Debug.Log(PlayerSelector.instance.playerPrefabName);
+        GameObject playerObject = PhotonNetwork.Instantiate(PlayerSelector.instance.playerPrefabName, spawnPoint[Random.Range(0, spawnPoint.Length)].position, Quaternion.identity);
 
         // initialize
         playerObject.GetComponent<PhotonView>().RPC("Initialized", RpcTarget.All, PhotonNetwork.LocalPlayer);
