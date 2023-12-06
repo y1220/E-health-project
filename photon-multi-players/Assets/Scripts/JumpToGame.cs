@@ -11,6 +11,9 @@ public class JumpToGame : MonoBehaviour
 
     public void StartBtn()
     {
+        AudioManager.instance.PlaySFX(1);
+
+
         NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, SceneName); 
         // SceneManager.LoadScene(SceneName);
     }
