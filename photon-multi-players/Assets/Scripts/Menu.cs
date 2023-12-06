@@ -97,12 +97,14 @@ public class Menu : MonoBehaviourPunCallbacks
     public void OnCreateButton(TMP_InputField roomNameInput)
     {
         NetworkManager.instance.CreateRoom(roomNameInput.text);
+        AudioManager.instance.PlaySFX(1);
     }
 
     public override void OnJoinedRoom()
     {
         SetScreen(lobbyScreen);
         photonView.RPC("UpdateLobbyUI", RpcTarget.All);
+        AudioManager.instance.PlaySFX(1);
     }
 
     public override void OnPlayerLeftRoom(Player otherPlayer)
@@ -132,6 +134,7 @@ public class Menu : MonoBehaviourPunCallbacks
 
     public void OnStartGameButton()
     {
+        AudioManager.instance.PlaySFX(1);
         // invisibile the room which client master going to start it
         PhotonNetwork.CurrentRoom.IsOpen = false;
         PhotonNetwork.CurrentRoom.IsVisible = false;
@@ -142,6 +145,7 @@ public class Menu : MonoBehaviourPunCallbacks
 
     public void OnLeaveLobbyButton()
     {
+        AudioManager.instance.PlaySFX(1);
         PhotonNetwork.LeaveRoom();
         SetScreen(mainScreen);
     }
@@ -185,11 +189,13 @@ public class Menu : MonoBehaviourPunCallbacks
 
     public void OnRefreshButton()
     {
+        AudioManager.instance.PlaySFX(1);
         UpdateLobbyBrowserUI();
     }
 
     public void OnJoinRoomButton(string roomName)
     {
+        AudioManager.instance.PlaySFX(1);
         NetworkManager.instance.JoinRoom(roomName);
     }
 

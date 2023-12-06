@@ -118,6 +118,7 @@ public class PlayerController : MonoBehaviourPun
     [PunRPC]
     void GetGold(int goldToGive)
     {
+        AudioManager.instance.PlaySFX(7);
         gold += goldToGive;
         PlayerPrefs.SetInt("Gold", gold);
     }

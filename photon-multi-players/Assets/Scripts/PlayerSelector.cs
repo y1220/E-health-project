@@ -47,6 +47,7 @@ public class PlayerSelector : MonoBehaviour
 
     public void ChangeNext()
     {
+        AudioManager.instance.PlaySFX(1);
         playerModel[selectedCharacter].SetActive(false);
         selectedCharacter++;
         if (selectedCharacter == playerModel.Length)
@@ -58,6 +59,7 @@ public class PlayerSelector : MonoBehaviour
     
     public void ChangeBack()
     {
+        AudioManager.instance.PlaySFX(1);
         playerModel[selectedCharacter].SetActive(false);
         selectedCharacter--;
         if (selectedCharacter ==  -1)
