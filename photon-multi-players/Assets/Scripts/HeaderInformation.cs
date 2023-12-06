@@ -5,13 +5,13 @@ using UnityEngine.UI;
 using TMPro;
 using Photon.Pun;
 
-public class HeaderInformation : MonoBehaviourPun
+public class HeaderInformation : MonoBehaviourPunCallbacks
 {
     public TextMeshProUGUI playerName;
     public HeaderInformation()
     {
         Debug.Log(PhotonNetwork.NickName);
-        playerName.text = PhotonNetwork.NickName;
+        //playerName.text = PhotonNetwork.NickName;
     }
     public void Initialized(string text)
     {

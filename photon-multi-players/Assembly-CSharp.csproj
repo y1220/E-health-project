@@ -87,6 +87,7 @@
      <Compile Include="Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs" />
      <Compile Include="Assets/Scripts/JumpToIndoDiscussion.cs" />
      <Compile Include="Assets/Scripts/JumpToIntroduction2.cs" />
+     <Compile Include="Assets/Scripts/DisplayPlayerNickname.cs" />
      <Compile Include="Assets/Scripts/SendToGoogle.cs" />
      <Compile Include="Assets/Scripts/PlayerSelector.cs" />
      <Compile Include="Assets/Scripts/JumpToIndoDoor1.cs" />
