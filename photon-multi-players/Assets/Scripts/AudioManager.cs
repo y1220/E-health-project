@@ -50,7 +50,7 @@ public class AudioManager : MonoBehaviour
     void OnSceneUnloaded(Scene scene)
     {
         // Check if the current scene is the one where the audio is playing
-        string[] scenes = { "Thanks", "Game"};
+        string[] scenes = { "Thanks", "Game", "Indo", "TakeCarePlant"};
         
         if (scenes.Contains(scene.name)) 
         {

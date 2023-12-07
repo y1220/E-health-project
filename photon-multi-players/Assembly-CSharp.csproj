@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs" />
+     <Compile Include="Assets/Scripts/JumpToTakeCarePlant2.cs" />
      <Compile Include="Assets/Scripts/JumpToIntroduction5.cs" />
      <Compile Include="Assets/Scripts/LoginData.cs" />
      <Compile Include="Assets/Scripts/JumpToFelmeDoors.cs" />
@@ -67,6 +68,7 @@
      <Compile Include="Assets/Scripts/JumpToHeldaDoor2.cs" />
      <Compile Include="Assets/Scripts/JumpToEndingIndo.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
+     <Compile Include="Assets/Scripts/JumpToTakeCarePlantFail.cs" />
      <Compile Include="Assets/Scripts/JumpToHelda.cs" />
      <Compile Include="Assets/Scripts/NetworkManager.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
@@ -109,7 +111,9 @@
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
      <Compile Include="Assets/Scripts/JumpToIntroduction6.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
+     <Compile Include="Assets/Scripts/JumpToTakeCarePlant1.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" />
+     <Compile Include="Assets/Scripts/JumpToTakeCarePlant3.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
      <Compile Include="Assets/Scripts/GameManager.cs" />
      <Compile Include="Assets/Scripts/JumpToIndoIndication.cs" />
@@ -142,6 +146,7 @@
      <Compile Include="Assets/Scripts/UIScript.cs" />
      <Compile Include="Assets/Scripts/JumpToIntroduction1.cs" />
      <Compile Include="Assets/Photon/PhotonChat/Demos/Common/EventSystemSpawner.cs" />
+     <Compile Include="Assets/Scripts/JumpToTakeCarePlantSuccess.cs" />
      <Compile Include="Assets/Scripts/Signup.cs" />
      <Compile Include="Assets/Scripts/JumpToSignin.cs" />
      <Compile Include="Assets/Scripts/JumpToGame.cs" />
@@ -173,6 +178,7 @@
      <Folder Include="Assets/Photon/PhotonChat/Demos" />
      <Folder Include="Assets/Assets/Player/Player4" />
      <Folder Include="Assets/BayatGames/Free Platform Game Assets/GUI ( Update 1.7 )/ai" />
+     <Folder Include="Assets/Ambient Music" />
      <Folder Include="Assets/Animated Fantasy Planet/Demo" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <Folder Include="Assets/Assets/Sprites/Mobile sprite" />

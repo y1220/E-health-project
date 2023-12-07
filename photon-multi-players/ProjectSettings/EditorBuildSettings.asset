@@ -131,4 +131,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlayerSelection.unity
     guid: 76786b2690eff4255b4c89e2c1c29212
+  - enabled: 1
+    path: Assets/Scenes/TakeCarePlant1.unity
+    guid: 179dfea9840434143951f1817582eb53
+  - enabled: 1
+    path: Assets/Scenes/TakeCarePlant2.unity
+    guid: 7fe0a7eb5dee9467c833da5f52d0a4d8
+  - enabled: 1
+    path: Assets/Scenes/TakeCarePlant3.unity
+    guid: 471e289249bdd44cc8235eb3a8e9625f
+  - enabled: 1
+    path: Assets/Scenes/TakeCarePlantFail.unity
+    guid: 67427b3c988b74bfb85ed8f9aebbeb8f
+  - enabled: 1
+    path: Assets/Scenes/TakeCarePlantSuccess.unity
+    guid: 42ff758fd1a8a49bea45ed64297c43c8
   m_configObjects: {}
