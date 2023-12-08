@@ -9,6 +9,7 @@ public class JumpToTakeCarePlantFail : MonoBehaviour
     public void StartBtn()
     {
         //NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "TakeCarePlantFail");
+        Debug.Log("fail is called");
         SceneManager.LoadScene("TakeCarePlantFail");
     }
 }

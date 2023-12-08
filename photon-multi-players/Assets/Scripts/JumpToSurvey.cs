@@ -8,7 +8,7 @@ public class JumpToSurvey : MonoBehaviour
 {
     public void StartBtn()
     {
-        NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "Survey");
-        //SceneManager.LoadScene("Survey");
+        //NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "Survey");
+        SceneManager.LoadScene("Survey");
     }
 }
