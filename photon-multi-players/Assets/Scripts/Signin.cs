@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.Serialization.Json;
 using System.Xml;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
@@ -17,7 +18,7 @@ public class Signin : MonoBehaviour
 
     [SerializeField]
     private string API_URL = "http://192.168.1.5:3000/login";
-    
+
     public void Login()
     {
         StartCoroutine(Send(API_URL));
@@ -28,7 +29,7 @@ public class Signin : MonoBehaviour
     {
         Email = email.GetComponent<TMPro.TMP_InputField>().text;
         Password = password.GetComponent<TMPro.TMP_InputField>().text;
-        
+
         LoginData data = new LoginData(
             Email, Password
         );
@@ -42,6 +43,7 @@ public class Signin : MonoBehaviour
         webRequest.SetRequestHeader("Content-Type", "application/json");
 
         yield return webRequest.SendWebRequest();
+        Debug.Log("Signin: returned response from rails");
         Debug.Log(webRequest.result);
         switch (webRequest.result)
         {
@@ -54,8 +56,13 @@ public class Signin : MonoBehaviour
                 break;
             case UnityWebRequest.Result.Success:
                 Debug.Log("Received: " + webRequest.downloadHandler.text);
-                PlayerMonster player = JsonUtility.FromJson<PlayerMonster>(webRequest.downloadHandler.text);
-                Debug.Log(player.id + ": " + player.username);
+                PlayerMonster playerMonster = JsonUtility.FromJson<PlayerMonster>(webRequest.downloadHandler.text);
+                PlayerPrefs.SetString("UserID", playerMonster.id.ToString());
+                PlayerPrefs.SetString("Username", playerMonster.username.ToString());
+                PlayerPrefs.SetString("Email", playerMonster.email.ToString());
+                Debug.Log(playerMonster.id + ": " + playerMonster.username);
+                SceneManager.LoadScene("Planets");
+
                 break;
         }
     }

@@ -4,15 +4,20 @@ using Photon.Pun;
 
 public class DisplayPlayerNickname : MonoBehaviour
 {
-    public TextMeshProUGUI nicknameText;
+    public TextMeshProUGUI userIdText;
+    public TextMeshProUGUI usernameText;
+    public TextMeshProUGUI emailText;
 
     void Start()
     {
-        // Check if PhotonNetwork is connected and the player has a nickname
+        // Check if PhotonNetwork is connected and check if the player data is preserved
         if (PhotonNetwork.IsConnected && PhotonNetwork.InRoom)
         {
-            // Display the player's nickname
-            SetNicknameText(PhotonNetwork.NickName);
+            // Display the player's nickname from playerPrefs
+            Debug.Log("UserID: " + PlayerPrefs.GetString("UserID"));
+            SetUserIdText(PlayerPrefs.GetString("UserID"));
+            SetUsernameText(PlayerPrefs.GetString("Username"));
+            SetEmailText(PlayerPrefs.GetString("Email"));
         }
         else
         {
@@ -20,16 +25,41 @@ public class DisplayPlayerNickname : MonoBehaviour
         }
     }
 
-    void SetNicknameText(string nickname)
+    void SetUserIdText(string userId)
     {
         // Update the UI with the player's nickname
-        if (nicknameText != null)
+        if (userIdText != null)
         {
-            nicknameText.text = nickname;
+            userIdText.text = userId;
         }
         else
         {
-            Debug.LogError("NicknameText reference is not set in the inspector.");
+            Debug.LogError("UserIdText reference is not set in the inspector.");
+        }
+    }
+
+    void SetUsernameText(string username)
+    {
+        // Update the UI with the player's username
+        if (username != null)
+        {
+            usernameText.text = username;
+        }
+        else
+        {
+            Debug.LogError("UsernameText reference is not set in the inspector.");
+        }
+    }
+    void SetEmailText(string email)
+    {
+        // Update the UI with the player's email
+        if (emailText != null)
+        {
+            emailText.text = email;
+        }
+        else
+        {
+            Debug.LogError("EmailText reference is not set in the inspector.");
         }
     }
 }

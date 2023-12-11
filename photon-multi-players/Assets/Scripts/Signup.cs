@@ -20,7 +20,7 @@ public class Signup : MonoBehaviour
 
     [SerializeField]
     private string API_URL = "http://192.168.1.5:3000/players";
-    
+
     public void CreatePlayer()
     {
         StartCoroutine(Send(API_URL));
@@ -30,26 +30,37 @@ public class Signup : MonoBehaviour
     IEnumerator Send(string uri)
     {
         Component[] components = username.GetComponents(typeof(Component));
-        foreach (Component component in components) {
-             Debug.Log(component.ToString());
+        foreach (Component component in components)
+        {
+            Debug.Log(component.ToString());
         }
         Username = username.GetComponent<TMPro.TMP_InputField>().text;
         Email = email.GetComponent<TMPro.TMP_InputField>().text;
         Password = password.GetComponent<TMPro.TMP_InputField>().text;
-        
+
         PlayerData data = new PlayerData(
             Username, Email, Password
         );
-        
+
         Debug.Log(Username);
         Debug.Log(Email);
         Debug.Log(Password);
 
         string jsonData = JsonUtility.ToJson(data);
+        Debug.Log(jsonData);
+
         UnityWebRequest webRequestSignup = new UnityWebRequest(uri, "POST");
+        Debug.Log(uri);
+
         byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonData);
+        Debug.Log(bodyRaw);
+
         webRequestSignup.uploadHandler = new UploadHandlerRaw(bodyRaw);
+        Debug.Log("After upload");
+
         webRequestSignup.downloadHandler = new DownloadHandlerBuffer();
+        Debug.Log("After download");
+
         // this is needed for ruby on rails
         webRequestSignup.SetRequestHeader("Content-Type", "application/json");
 
@@ -72,6 +83,10 @@ public class Signup : MonoBehaviour
             case UnityWebRequest.Result.Success:
                 Debug.Log("Received: " + webRequestSignup.downloadHandler.text);
                 PlayerMonster playerMonster = JsonUtility.FromJson<PlayerMonster>(webRequestSignup.downloadHandler.text);
+                PlayerPrefs.SetString("UserID", playerMonster.id.ToString());
+                PlayerPrefs.SetString("Username", playerMonster.username.ToString());
+                PlayerPrefs.SetString("Email", playerMonster.email.ToString());
+
                 Debug.Log(playerMonster.id + ": " + playerMonster.username);
                 SceneManager.LoadScene("Survey");
                 break;

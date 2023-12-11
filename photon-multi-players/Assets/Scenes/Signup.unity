@@ -610,7 +610,6 @@ GameObject:
   - component: {fileID: 792672373}
   - component: {fileID: 792672372}
   - component: {fileID: 792672371}
-  - component: {fileID: 792672374}
   - component: {fileID: 792672376}
   - component: {fileID: 792672377}
   - component: {fileID: 792672375}
@@ -697,18 +696,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 792672377}
-        m_TargetAssemblyTypeName: JumpToSurvey, Assembly-CSharp
-        m_MethodName: StartBtn
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &792672372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -747,22 +734,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 792672369}
   m_CullTransparentMesh: 1
---- !u!114 &792672374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 792672369}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7044cea59b9f647b8a8eddb277c46e41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  username: {fileID: 1379737704}
-  email: {fileID: 958825104}
-  phone: {fileID: 1333289161}
-  BASE_URL: https://docs.google.com/forms/u/0/d/e/1FAIpQLScX4PlbCUNSNpAgN84V2ERlVJLxlvL3yd2dmhW9CBngp3WyCg/formResponse
 --- !u!114 &792672375
 MonoBehaviour:
   m_ObjectHideFlags: 0
