@@ -1385,6 +1385,7 @@ GameObject:
   - component: {fileID: 1131377560}
   - component: {fileID: 1131377559}
   - component: {fileID: 1131377558}
+  - component: {fileID: 1131377562}
   m_Layer: 5
   m_Name: Confirm Button
   m_TagString: Untagged
@@ -1468,9 +1469,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1131377558}
-        m_TargetAssemblyTypeName: JumpToThanks, Assembly-CSharp
-        m_MethodName: StartBtn
+      - m_Target: {fileID: 1131377562}
+        m_TargetAssemblyTypeName: PlayerSelector, Assembly-CSharp
+        m_MethodName: SelectCharacter
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1518,6 +1519,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1131377556}
   m_CullTransparentMesh: 1
+--- !u!114 &1131377562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131377556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6b779ff95ad64886b45fe685ac7b018, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextButton: {fileID: 1694572979}
+  backwardButton: {fileID: 1119962237}
+  playerPrefabName: 
+  playerModel:
+  - {fileID: 1132266934}
+  - {fileID: 41358548}
+  selectedCharacter: 0
 --- !u!1 &1132266934
 GameObject:
   m_ObjectHideFlags: 0

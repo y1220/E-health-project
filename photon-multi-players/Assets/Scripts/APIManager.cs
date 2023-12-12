@@ -14,7 +14,7 @@ public class APIManager : MonoBehaviour
         StartCoroutine(PostRequest(API_URL));
 
     }
-    
+
     IEnumerator GetRequest(string uri)
     {
         using (UnityWebRequest webRequest = UnityWebRequest.Get(uri))
@@ -57,7 +57,7 @@ public class APIManager : MonoBehaviour
         webRequest.SetRequestHeader("Content-Type", "application/json");
 
         yield return webRequest.SendWebRequest();
-        
+
         switch (webRequest.result)
         {
             case UnityWebRequest.Result.ConnectionError:

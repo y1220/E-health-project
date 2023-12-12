@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviourPun
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     [PunRPC]
@@ -47,21 +47,27 @@ public class GameManager : MonoBehaviourPun
     {
         string playerType;
 
-        // spawn player randomly in spawn point list position
-        if (PlayerSelector.instance != null && PlayerSelector.instance.playerPrefabName != null)
+        // Check if player type is stored in PlayerPrefs
+        if (PlayerPrefs.GetString("UserType") != null)
         {
-            Debug.Log(PlayerSelector.instance.playerPrefabName);
-            playerType = PlayerSelector.instance.playerPrefabName;
+            playerType = FirstCharToUpper(PlayerPrefs.GetString("UserType"));
         }
         else
         {
-            Debug.Log("Player registered as Ester");
+            // Default player type if not found
             playerType = "Ester";
         }
+
+        // spawn player randomly in spawn point list position
         GameObject playerObject = PhotonNetwork.Instantiate(playerType,
-        spawnPoint[Random.Range(0, spawnPoint.Length)].position, Quaternion.identity);
+            spawnPoint[Random.Range(0, spawnPoint.Length)].position, Quaternion.identity);
 
         // initialize
         playerObject.GetComponent<PhotonView>().RPC("Initialized", RpcTarget.All, PhotonNetwork.LocalPlayer);
+    }
+
+    public static string FirstCharToUpper(string input)
+    {
+        return input.First().ToString().ToUpper() + input.Substring(1);
     }
 }
