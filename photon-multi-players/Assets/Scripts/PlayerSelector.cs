@@ -28,6 +28,7 @@ public class PlayerSelector : MonoBehaviour
         {
             selectedCharacter = PlayerPrefs.GetInt("SelectedCharacter");
             playerPrefabName = playerModel[selectedCharacter].GetComponent<PlayerModelName>().playerName;
+
             //nextButton.SetActive(false);
             //backwardButton.SetActive(false);
         }
@@ -36,13 +37,18 @@ public class PlayerSelector : MonoBehaviour
             nextButton.SetActive(true);
             backwardButton.SetActive(true);
         }
-        
+
         foreach (GameObject player in playerModel)
         {
             player.SetActive(false);
         }
-        
+
         playerModel[selectedCharacter].SetActive(true);
+        PlayerPrefs.SetString("UserType", playerPrefabName);
+
+
+        // Set UserType into PlayerPrefs
+        //PlayerPrefs.SetString("UserType", "Player");
     }
 
     public void ChangeNext()
@@ -56,14 +62,14 @@ public class PlayerSelector : MonoBehaviour
         PlayerPrefs.SetInt("SelectedCharacter", selectedCharacter);
         playerPrefabName = playerModel[selectedCharacter].GetComponent<PlayerModelName>().playerName;
     }
-    
+
     public void ChangeBack()
     {
         AudioManager.instance.PlaySFX(1);
         playerModel[selectedCharacter].SetActive(false);
         selectedCharacter--;
-        if (selectedCharacter ==  -1)
-            selectedCharacter = playerModel.Length -1;
+        if (selectedCharacter == -1)
+            selectedCharacter = playerModel.Length - 1;
         playerModel[selectedCharacter].SetActive(true);
         PlayerPrefs.SetInt("SelectedCharacter", selectedCharacter);
         playerPrefabName = playerModel[selectedCharacter].GetComponent<PlayerModelName>().playerName;

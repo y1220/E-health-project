@@ -108,6 +108,7 @@
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
      <Compile Include="Assets/Scripts/PlayerModelName.cs" />
      <Compile Include="Assets/Scripts/JumpToIntroduction4.cs" />
+     <Compile Include="Assets/Scripts/ProfileImageSetter.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
      <Compile Include="Assets/Scripts/JumpToIntroduction6.cs" />
      <Compile Include="Assets/Scripts/JumpToTakeCarePlant1.cs" />
