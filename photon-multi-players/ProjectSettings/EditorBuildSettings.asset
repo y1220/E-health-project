@@ -146,4 +146,31 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TakeCarePlantSuccess.unity
     guid: 42ff758fd1a8a49bea45ed64297c43c8
+  - enabled: 1
+    path: Assets/Scenes/TakeCareFire.unity
+    guid: 58de1234143774f78a4414a4a5e1eebd
+  - enabled: 1
+    path: Assets/Scenes/TakeCareWater.unity
+    guid: 9db0724463a7b412ab6e1162ae20306b
+  - enabled: 1
+    path: Assets/Scenes/TakeCareWaterSuccess.unity
+    guid: 9225b9cb818bc46da82bfe881d38af9d
+  - enabled: 1
+    path: Assets/Scenes/TakeCareWaterFail.unity
+    guid: 7e4601dd7faa246a79db0f6554cdfcd7
+  - enabled: 1
+    path: Assets/Scenes/TakeCareFireSuccess.unity
+    guid: ea5b872e88afa4de2a0606c28a7f858f
+  - enabled: 1
+    path: Assets/Scenes/TakeCareFireFail.unity
+    guid: a66d4528244214cffb56518739191b86
+  - enabled: 1
+    path: Assets/Scenes/TakeCareWater1.unity
+    guid: 17f95c8daea9a468aabb4e2863a00982
+  - enabled: 1
+    path: Assets/Scenes/TakeCareWater2.unity
+    guid: 939c70994070440fa8bbb10a062c4c24
+  - enabled: 1
+    path: Assets/Scenes/TakeCareWater3.unity
+    guid: 3419663992f3541f385f2c4d5232a07f
   m_configObjects: {}

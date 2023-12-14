@@ -10,7 +10,9 @@ public enum PickupTypes
     Door,
     Discussion,
     Library,
-    CryingPlant
+    CryingPlant,
+    CryingWater,
+    CryingFire
 }
 
 public class Pickups : MonoBehaviour
@@ -43,6 +45,12 @@ public class Pickups : MonoBehaviour
             }else if (types == PickupTypes.CryingPlant)
             {
                 NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "TakeCarePlant");
+            }else if (types == PickupTypes.CryingWater)
+            {
+                NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "TakeCareWater");
+            }else if (types == PickupTypes.CryingFire)
+            {
+                NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "TakeCareFire");
             }
             
             PhotonNetwork.Destroy(gameObject);
