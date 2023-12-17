@@ -12,11 +12,15 @@ public class PlayerNew : MonoBehaviour
     [Range(0, 200f)] public float speed = 1f;
     [Range(0, 150f)] public float jumpForce = 8f;
 
-    [Space]
+    [Header("Player animation settings")]
+    public Animator animator;
+
     [Header("Ground Cheker Settings")]
     public bool isGrounded = false;
-    [Range(-15f, 15f)] public float checkGroundOffsetY = -1.8f;
-    [Range(0, 15f)] public float checkGroundRadius = 0.3f;
+    [Range(-5f, 5f)] public float checkGroundOffsetY = -1.8f;
+    [Range(0, 5f)] public float checkGroundRadius = 0.3f;
+
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -31,7 +35,18 @@ public class PlayerNew : MonoBehaviour
 
         HorizontalMove = Input.GetAxisRaw("Horizontal") * speed;
 
-        if (HorizontalMove < 0 && FacingRight)
+        animator.SetFloat("HorizontalMove", Mathf.Abs(HorizontalMove));
+
+        if (isGrounded == false)
+        {
+            animator.SetBool("Jumping", true);
+        }
+        else
+        {
+            animator.SetBool("Jumping", false);
+        }
+
+            if (HorizontalMove < 0 && FacingRight)
         {
             Flip();
         }
