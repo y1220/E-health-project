@@ -1,0 +1,2315 @@
+fileFormatVersion: 2
+guid: fed20fa9042171f46992c63cdea5ad60
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3859647635410673706
+    second: The Art of Dan Zao_0
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: The Art of Dan Zao_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95afa177f4c69034ebff6f270071f4f3
+      internalID: -169308596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 720
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711734526dc5114499b098cc9872fa89
+      internalID: 329209545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 720
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ffcb01bd890eb47bc615332a96bb0e
+      internalID: 244041164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_3
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 720
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf0ca5d6d2e39f479ecc3ab1d8dd457
+      internalID: 1681421057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_4
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 720
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8c01f34e76f6b4ba303a58a5b171e8
+      internalID: -1317006118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_5
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 720
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b23df5ef89011499b5386d278c5cb0
+      internalID: 695402090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_6
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 720
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba150401ef0e2f4c871bf3dbef0e94c
+      internalID: -586618875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_7
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 720
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3598068bc16fc7d41a5a5a5bd09b6bd9
+      internalID: 1203754043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_8
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 720
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b5335475f239b408166d3bdbe54ec1
+      internalID: -1640384483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_9
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 720
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e00848a118c9d48989277e3807dbaa
+      internalID: 590943866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80dd78e6c4687d4e922ebcd77c99e65
+      internalID: 224150123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_11
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 640
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7562c85d634b7b843b5a53d4eb346696
+      internalID: 1876813116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_12
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 640
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c31167c638a2f48a556abb236ad3ce
+      internalID: 1420475780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_13
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 640
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fa3f2c93e8afa4696e72e90b386ecf
+      internalID: -342312939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_14
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 640
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b570433e6d635bb409b6dc9d0e0a8a56
+      internalID: -858425471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_15
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 640
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402742a248281c64598c16cbe2807ea2
+      internalID: 1630596751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_16
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 640
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2248f1414eb6444a06a7e6c49823a1
+      internalID: -629529813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_17
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 640
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7529ea82fa1fdd498f066734b58efd6
+      internalID: 1465077338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_18
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 640
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7659b266ca3ad49a71c1718b506f9f
+      internalID: 188756658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_19
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 640
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d59caa1a206d5c47909d0a976f28ac4
+      internalID: -256609978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891ac2eacaeb87e418c07d2e38546f06
+      internalID: -1941561662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_21
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 560
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce30af71c09c7894aba9807d5e402b53
+      internalID: -1888377369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_22
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 560
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeaecbddbe913d744aa3f3d7d5f502df
+      internalID: -1992595708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_23
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 560
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205dbe0d7112833459e82fe8ab1bf1d0
+      internalID: -1482849482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_24
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 560
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e060702a6e19045b16e4f05436084f
+      internalID: -897999479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_25
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 560
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcfd836d5087d8448567bcee227ae0e
+      internalID: 781016419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_26
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 560
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d658e9e710b2bb447adeaa118fb6a1bc
+      internalID: -1263137029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_27
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 560
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c2c7d0d9eabc1479ded0ed5564f2c6
+      internalID: -602639428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_28
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 560
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b737ad7d427b5e4780015b1adec7190
+      internalID: 988055536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_29
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 560
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd9a7a8d61fcfe41966fdb265add065
+      internalID: 950441420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162c7e5c00db405499682a443e1041ac
+      internalID: 474210995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_31
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 480
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1169393afa971d24cbfdab1554f9e946
+      internalID: 507364155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_32
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 480
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10dc6d1fdc9c30b42a8ebc3e6abb3aca
+      internalID: -236256292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_33
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 480
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d47ee252dbde348b2bb9d094e06018
+      internalID: -1217360702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_34
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 480
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160ff92ac3fde9541af5f5dce2b74b71
+      internalID: 401616162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_35
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 480
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0852c73241b2834499e108891cf27604
+      internalID: 708612152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_36
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 480
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464cf4ebc130901459c97202683cfe9f
+      internalID: 746287071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_37
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 480
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b2b62e93c247449a1ebaadb493abce
+      internalID: -810784458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_38
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 480
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737a89ce2c62eb544a63ff4a835042ce
+      internalID: 798612773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_39
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 480
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddec3f3c79d7a645856d93957698fd7
+      internalID: -1504570774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4639d46383e0c124d9a375a1cc343c2f
+      internalID: -1781843871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_41
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 400
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d97b3087264561468a764828efbc57a
+      internalID: -1186363152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_42
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 400
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605307e92b7de0d408bf16b489015f8c
+      internalID: -1174156988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_43
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 400
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b192fcdfafd974b90e8fbd5e92fb68
+      internalID: -651779907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_44
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 400
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b466dd3dd220ab842837648de66e47cc
+      internalID: 1874806902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_45
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 400
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f90b9a4eada9d40a71630c6ddc12a7
+      internalID: 240677067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_46
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 400
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831df5d71e93c114ab10ed1fa1e5fe6a
+      internalID: -793221431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_47
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 400
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31002d8a1bb441b43a9d12d24e1dd6ae
+      internalID: -420190803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_48
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 400
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1e308cae6c3884c92ac54098d59164
+      internalID: -312855445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_49
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 400
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52c9262ce658d9428b8ac68bf66c3de
+      internalID: -1282608165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b03c076e368ac940a67abd3b0cd41da
+      internalID: 894392021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_51
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 320
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d55be0f4fe080a4a8b78aea692c4ef6
+      internalID: -1047865735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_52
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 320
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a753b33b26dfca04181951edf4512f2c
+      internalID: 862834578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_53
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 320
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50855fd3e8b44843b375757762784a5
+      internalID: -1911213696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_54
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 320
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057284bb96c60b641b6258ed42502315
+      internalID: -1283510752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_55
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 320
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70064f0b1ccce0d4389da4ea736d112e
+      internalID: 973639978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_56
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 320
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c8b8e3b750e8940b326e200b02cc6f
+      internalID: 1933509513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_57
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 320
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca63edaa5388524fbc10634bfc06d9a
+      internalID: -1156698217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_58
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 320
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615571695e81a7f4eabb02bd60c43b22
+      internalID: -823447589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_59
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 320
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96fc936d4ac788429132e21c7e1dc9a
+      internalID: -1834385211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfcb6e81220e3940ae6e00f1b6d1941
+      internalID: -2033571027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_61
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 240
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac26ce413844c64895750eea7554096
+      internalID: -358256047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_62
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 240
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81abc9b3bc11fe74daa5e62ae9931bc4
+      internalID: 2111508652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_63
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 240
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71452ccbd90b703438bb9d3eb3a3b38e
+      internalID: 931276194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_64
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 240
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59211368ceaed6f42a20c947d8a3bb56
+      internalID: 1987673266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_65
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 240
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f259474508cdf3458bb86dbad800abb
+      internalID: 1810512951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_66
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 240
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0949228ac4e524780b3f7adae8594b
+      internalID: -1243043182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_67
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 240
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b09450543b31fb48aa0ad919a2437da
+      internalID: -1640838803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_68
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 240
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b0c34ebc6282648b86ab9d85954d9c
+      internalID: -1819218753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_69
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 240
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49e06a77dd5bbe42bbc28b7b66bc242
+      internalID: -1869445518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7b896a8cc0eb94589542e0164db564
+      internalID: 1058054385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_71
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 160
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b691a8582fa00744b6fbce9f25319aa
+      internalID: -909686386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_72
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 160
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266599b4611de0643a5c1d0041e7ff0a
+      internalID: 560347463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_73
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 160
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67eb932a659311a4ead527238652e623
+      internalID: -637864058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_74
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 160
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c0d060cd28e9c48a9edddb1f1e82e9
+      internalID: -315153447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_75
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 160
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c653d8f695ff132468dee6b635b1c723
+      internalID: -970493848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_76
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 160
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c434c0f184b00b44cb3234d55e545dfe
+      internalID: -1433114563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_77
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 160
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7642e52b0cb334ea4ca700e38e4d94
+      internalID: -835387789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_78
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 160
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b50fe280721e1340a87214db193cc5f
+      internalID: 307339374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_79
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 160
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a749ba060b4837645b96aab9c88d2da6
+      internalID: -1817553041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b12c7da70a55a439069321c174190d
+      internalID: -724899933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_81
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 80
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b0e2fc3c0e7e148b53b534d3332e5a
+      internalID: -612364152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_82
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 80
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941ad86e927b42948b5d961f679c6ab3
+      internalID: -1342795598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_83
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 80
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c503290c4022d144963e4d2d27f8aa1
+      internalID: 764636273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_84
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 80
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d80d3e5e51d4184f9658d47728a312e
+      internalID: 1362456639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_85
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 80
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a314ad58aaa77e74bb3c7b5a1d869777
+      internalID: -2018422346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_86
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 80
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2311e5465f808c64fbb3360accc69a2d
+      internalID: -1766286832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_87
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 80
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9dee091c9fe214296b6dbe6db1a909
+      internalID: -1859032018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_88
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 80
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b0c338628ada8408f0b0648f8507bf
+      internalID: -1072543712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_89
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 80
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2744aad4195c8fd448e712be5af76663
+      internalID: -520004614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b58a1b8b0ebb442ac1c2ac2e1394c3
+      internalID: 235424928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_91
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 0
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1acaf5de7aa544e9c9f5f743a02618
+      internalID: -1460058219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_92
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 0
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0a98f71dfebc64fad83bac097fd2cf
+      internalID: -670465962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_93
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 0
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96a4ff09e7cc8646b4a8de72fb99ea0
+      internalID: -286984378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_94
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 0
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc399c4367b1f440ab52c24d8aaa24b
+      internalID: -1826422328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_95
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 0
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8996ce57f5b247a45b149bf54d56795b
+      internalID: 2131756514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_96
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 0
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd06eb3cba22bc41918f784a8887a3f
+      internalID: 1226443162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_97
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 0
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63de673931bb02447a79f638be1d875f
+      internalID: 1205031165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_98
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 0
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b6416b0160da8409cbb15b870a9fb9
+      internalID: 1374024742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Art of Dan Zao_99
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 0
+        width: 58.7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eda9939565c249408490ae327a8bc21
+      internalID: -1266416763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: de34de2f458058c4394a936dce276dd2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      The Art of Dan Zao_0: -169308596
+      The Art of Dan Zao_1: 329209545
+      The Art of Dan Zao_10: 224150123
+      The Art of Dan Zao_11: 1876813116
+      The Art of Dan Zao_12: 1420475780
+      The Art of Dan Zao_13: -342312939
+      The Art of Dan Zao_14: -858425471
+      The Art of Dan Zao_15: 1630596751
+      The Art of Dan Zao_16: -629529813
+      The Art of Dan Zao_17: 1465077338
+      The Art of Dan Zao_18: 188756658
+      The Art of Dan Zao_19: -256609978
+      The Art of Dan Zao_2: 244041164
+      The Art of Dan Zao_20: -1941561662
+      The Art of Dan Zao_21: -1888377369
+      The Art of Dan Zao_22: -1992595708
+      The Art of Dan Zao_23: -1482849482
+      The Art of Dan Zao_24: -897999479
+      The Art of Dan Zao_25: 781016419
+      The Art of Dan Zao_26: -1263137029
+      The Art of Dan Zao_27: -602639428
+      The Art of Dan Zao_28: 988055536
+      The Art of Dan Zao_29: 950441420
+      The Art of Dan Zao_3: 1681421057
+      The Art of Dan Zao_30: 474210995
+      The Art of Dan Zao_31: 507364155
+      The Art of Dan Zao_32: -236256292
+      The Art of Dan Zao_33: -1217360702
+      The Art of Dan Zao_34: 401616162
+      The Art of Dan Zao_35: 708612152
+      The Art of Dan Zao_36: 746287071
+      The Art of Dan Zao_37: -810784458
+      The Art of Dan Zao_38: 798612773
+      The Art of Dan Zao_39: -1504570774
+      The Art of Dan Zao_4: -1317006118
+      The Art of Dan Zao_40: -1781843871
+      The Art of Dan Zao_41: -1186363152
+      The Art of Dan Zao_42: -1174156988
+      The Art of Dan Zao_43: -651779907
+      The Art of Dan Zao_44: 1874806902
+      The Art of Dan Zao_45: 240677067
+      The Art of Dan Zao_46: -793221431
+      The Art of Dan Zao_47: -420190803
+      The Art of Dan Zao_48: -312855445
+      The Art of Dan Zao_49: -1282608165
+      The Art of Dan Zao_5: 695402090
+      The Art of Dan Zao_50: 894392021
+      The Art of Dan Zao_51: -1047865735
+      The Art of Dan Zao_52: 862834578
+      The Art of Dan Zao_53: -1911213696
+      The Art of Dan Zao_54: -1283510752
+      The Art of Dan Zao_55: 973639978
+      The Art of Dan Zao_56: 1933509513
+      The Art of Dan Zao_57: -1156698217
+      The Art of Dan Zao_58: -823447589
+      The Art of Dan Zao_59: -1834385211
+      The Art of Dan Zao_6: -586618875
+      The Art of Dan Zao_60: -2033571027
+      The Art of Dan Zao_61: -358256047
+      The Art of Dan Zao_62: 2111508652
+      The Art of Dan Zao_63: 931276194
+      The Art of Dan Zao_64: 1987673266
+      The Art of Dan Zao_65: 1810512951
+      The Art of Dan Zao_66: -1243043182
+      The Art of Dan Zao_67: -1640838803
+      The Art of Dan Zao_68: -1819218753
+      The Art of Dan Zao_69: -1869445518
+      The Art of Dan Zao_7: 1203754043
+      The Art of Dan Zao_70: 1058054385
+      The Art of Dan Zao_71: -909686386
+      The Art of Dan Zao_72: 560347463
+      The Art of Dan Zao_73: -637864058
+      The Art of Dan Zao_74: -315153447
+      The Art of Dan Zao_75: -970493848
+      The Art of Dan Zao_76: -1433114563
+      The Art of Dan Zao_77: -835387789
+      The Art of Dan Zao_78: 307339374
+      The Art of Dan Zao_79: -1817553041
+      The Art of Dan Zao_8: -1640384483
+      The Art of Dan Zao_80: -724899933
+      The Art of Dan Zao_81: -612364152
+      The Art of Dan Zao_82: -1342795598
+      The Art of Dan Zao_83: 764636273
+      The Art of Dan Zao_84: 1362456639
+      The Art of Dan Zao_85: -2018422346
+      The Art of Dan Zao_86: -1766286832
+      The Art of Dan Zao_87: -1859032018
+      The Art of Dan Zao_88: -1072543712
+      The Art of Dan Zao_89: -520004614
+      The Art of Dan Zao_9: 590943866
+      The Art of Dan Zao_90: 235424928
+      The Art of Dan Zao_91: -1460058219
+      The Art of Dan Zao_92: -670465962
+      The Art of Dan Zao_93: -286984378
+      The Art of Dan Zao_94: -1826422328
+      The Art of Dan Zao_95: 2131756514
+      The Art of Dan Zao_96: 1226443162
+      The Art of Dan Zao_97: 1205031165
+      The Art of Dan Zao_98: 1374024742
+      The Art of Dan Zao_99: -1266416763
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

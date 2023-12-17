@@ -1,0 +1,907 @@
+fileFormatVersion: 2
+guid: 093c90facfe7e7c43ad74660be014657
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3254020641202601997
+    second: Fantasy space scene_0
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fantasy space scene_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 363.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d008baa588a982d20800000000000000
+      internalID: 3254020641202601997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 363.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc370e17ce96064983b17c3a4cd5847
+      internalID: 1710738922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_2
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 363.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa24a054dee5374abb31b83c8a76a9c
+      internalID: -2072329732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_3
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 363.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ca40e0cbfcf564b997e5e8ff7d8c57
+      internalID: -1761973123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_4
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 363.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3c297dcabde624797192d0a0f4b603
+      internalID: -1198764397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_5
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 363.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb090c0b1e60d84f88c944048cddcf3
+      internalID: 246128207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 291.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7310488b690a49645bdb1d629254472b
+      internalID: -933134667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_7
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 291.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3202d2324fd3c4f932a867d5eddb56
+      internalID: -447048888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_8
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 291.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280b3843e5e16b247abcb6528d906e55
+      internalID: -1927519121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_9
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 291.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb75f8f5413224846a9d41e7a05ad4ac
+      internalID: -422219585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_10
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 291.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897b4826dd245d349a98d7fc2e65bb30
+      internalID: 739956618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_11
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 291.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37817d65db23604da2411ab7e4e291a
+      internalID: -222685788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 219.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5c39373337ee1489bc28445934efaf
+      internalID: 1279084576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_13
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 219.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b83f6dd01f471b458e2173029ebfd11
+      internalID: 560395867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_14
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 219.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d487b1580e564fc478c32932902cfb98
+      internalID: 976927555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_15
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 219.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c393ec429afb741be6c7e06eafbc7e
+      internalID: -1846864432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_16
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 219.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f2fffd83abc644e99301dfad382192
+      internalID: 2047238002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_17
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 219.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d1da92322d35245b7501e424533b33
+      internalID: -167255370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 147.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef69aaab1620d54fa00848fe2241046
+      internalID: 865066593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_19
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 147.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2800a1b3d2feb5b41b06b8754332449f
+      internalID: -1554927354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_20
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 147.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f62f566efabf943b06763a81a508c3
+      internalID: 443009429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_21
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 147.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e9cade4505d22438303059366e970a
+      internalID: -633979875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_22
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 147.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54b10fcad8555d46891cdbdcd202dc9
+      internalID: -752104310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_23
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 147.33334
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f50316aadc001f49afa9ac4c8a610b5
+      internalID: 1702211752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75.333336
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8226b6d32aa754b40bb67af5ff19f056
+      internalID: 1068633109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_25
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 75.333336
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100c475d4ea3fc24fa6b0b651cffe0c7
+      internalID: -1423681549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_26
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 75.333336
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12073043d3f23742b038ca75e9a469b
+      internalID: -489652433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_27
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 75.333336
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7beb454d01c7c42817d7663c0015fe
+      internalID: 1744387382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_28
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 75.333336
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911d100fe14e5d74ebcebcdf9bb1a92f
+      internalID: 1212708500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_29
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 75.333336
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d70a8343fa29f749aa2c7ee553344f2
+      internalID: 1601375535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.3333359
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b72fd109579694eb3228acada10f95
+      internalID: 1490628695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_31
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 3.3333359
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a316f73039a0fe5479d087cecbde7b5f
+      internalID: -524215538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_32
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 3.3333359
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3026f06e6358d448546669bb4f10f9
+      internalID: -1131029463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_33
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 3.3333359
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c499c05db61bdee41a0447fe24d00181
+      internalID: -1310782688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_34
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 3.3333359
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd3e233a29318c4ab9a80a2172c2172
+      internalID: 1672752686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy space scene_35
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 3.3333359
+        width: 122.666664
+        height: 72.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02859f64ff67ea84f994877c760bc8ff
+      internalID: 1600368443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ede061ceb1f7e8f4789449cfd2293195
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Fantasy space scene_0: 3254020641202601997
+      Fantasy space scene_1: 1710738922
+      Fantasy space scene_10: 739956618
+      Fantasy space scene_11: -222685788
+      Fantasy space scene_12: 1279084576
+      Fantasy space scene_13: 560395867
+      Fantasy space scene_14: 976927555
+      Fantasy space scene_15: -1846864432
+      Fantasy space scene_16: 2047238002
+      Fantasy space scene_17: -167255370
+      Fantasy space scene_18: 865066593
+      Fantasy space scene_19: -1554927354
+      Fantasy space scene_2: -2072329732
+      Fantasy space scene_20: 443009429
+      Fantasy space scene_21: -633979875
+      Fantasy space scene_22: -752104310
+      Fantasy space scene_23: 1702211752
+      Fantasy space scene_24: 1068633109
+      Fantasy space scene_25: -1423681549
+      Fantasy space scene_26: -489652433
+      Fantasy space scene_27: 1744387382
+      Fantasy space scene_28: 1212708500
+      Fantasy space scene_29: 1601375535
+      Fantasy space scene_3: -1761973123
+      Fantasy space scene_30: 1490628695
+      Fantasy space scene_31: -524215538
+      Fantasy space scene_32: -1131029463
+      Fantasy space scene_33: -1310782688
+      Fantasy space scene_34: 1672752686
+      Fantasy space scene_35: 1600368443
+      Fantasy space scene_4: -1198764397
+      Fantasy space scene_5: 246128207
+      Fantasy space scene_6: -933134667
+      Fantasy space scene_7: -447048888
+      Fantasy space scene_8: -1927519121
+      Fantasy space scene_9: -422219585
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
