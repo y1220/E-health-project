@@ -15,7 +15,7 @@ public class UIScript : MonoBehaviour
     private string BASE_URL = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdPB3JeF_PS5mVXHJ-nuOkir8caLpg_n1YzHRRw5xec52VcqA/formResponse";
 
     [SerializeField]
-    private string API_URL = "http://192.168.1.5:3000/role";
+    private string API_URL = "http://192.168.10.112:3000/role";
 
 
     // Start is called before the first frame update
@@ -27,13 +27,13 @@ public class UIScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void SubmitAnswer()
     {
-        
-        string[] entries = { "entry.39974158", "entry.1925534193", "entry.1046761834"};
+
+        string[] entries = { "entry.39974158", "entry.1925534193", "entry.1046761834" };
         for (int i = 0; i < qaArr.Length; i++)
         {
             qaArr[i] = ReadQuestionAndAnswer(questionGroupArr[i]);
@@ -41,7 +41,7 @@ public class UIScript : MonoBehaviour
             Debug.Log(qaArr[i].Answer);
         }
 
-        
+
         StartCoroutine(Post(qaArr));
         StartCoroutine(Send(qaArr));
     }
@@ -92,7 +92,7 @@ public class UIScript : MonoBehaviour
             {
                 if (a.transform.GetChild(i).GetComponent<Toggle>().isOn)
                 {
-                    if(counter != 0)
+                    if (counter != 0)
                     {
                         s = s + ", ";
                     }
@@ -100,9 +100,9 @@ public class UIScript : MonoBehaviour
                     counter++;
                 }
 
-                if(i == a.transform.childCount - 1)
+                if (i == a.transform.childCount - 1)
                 {
-                    s = s + "."; 
+                    s = s + ".";
                 }
             }
             result.Answer = s;
@@ -114,17 +114,17 @@ public class UIScript : MonoBehaviour
     IEnumerator Post(QAClass[] qaArr)
     {
         WWWForm form = new WWWForm();
-        string[] entries = { "entry.39974158", "entry.1925534193", "entry.1046761834", "entry.1498878993"};
+        string[] entries = { "entry.39974158", "entry.1925534193", "entry.1046761834", "entry.1498878993" };
         for (int i = 0; i < qaArr.Length; i++)
         {
             Debug.Log(entries[i] + ": " + qaArr[i].Answer);
             form.AddField(entries[i], qaArr[i].Answer);
         }
-       
+
         UnityWebRequest www = UnityWebRequest.Post(BASE_URL, form);
         yield return www.SendWebRequest();
     }
-    
+
     IEnumerator Send(QAClass[] qaArr)
     {
         int role = 0;

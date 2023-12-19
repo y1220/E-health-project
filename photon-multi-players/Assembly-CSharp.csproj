@@ -130,9 +130,9 @@
      <Compile Include="Assets/Photon/PhotonChat/Demos/Common/TextToggleIsOnTransition.cs" />
      <Compile Include="Assets/Scripts/JumpToTakeCareWaterSuccess.cs" />
      <Compile Include="Assets/Scripts/JumpToFelmeDoor1.cs" />
+     <Compile Include="Assets/Scripts/JumpToTakeCareFire3.cs" />
      <Compile Include="Assets/Scripts/JumpToMorning.cs" />
      <Compile Include="Assets/Scripts/JumpToHome.cs" />
-     <Compile Include="Assets/Scripts/JumpToTakeCareFire3.cs" />
      <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/FriendItem.cs" />
      <Compile Include="Assets/Scripts/JumpToIndoDoor2.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
