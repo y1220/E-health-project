@@ -19,7 +19,7 @@ public class PlayerSelector : MonoBehaviour
 
     public GameObject[] playerModel;
     public int selectedCharacter;
-    private string API_URL = "http://192.168.1.5:3000/role";
+    private string API_URL = "http://192.168.10.112:3000/role";
 
     private void Awake()
     {
@@ -99,7 +99,7 @@ public class PlayerSelector : MonoBehaviour
         PlayerRoleData data = new PlayerRoleData(
             PlayerPrefs.GetString("UserID"), "1"
         );
-        
+
 
         Debug.Log(PlayerPrefs.GetString("UserType"));
         if (PlayerPrefs.GetString("UserType") == "hardir")

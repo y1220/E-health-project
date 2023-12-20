@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Photon.Pun;
 
-public class JumpToSeekForHelp : MonoBehaviour
+public class JumpToEndingIndo : MonoBehaviour
 {
     public void StartBtn()
     {
-        NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "SeekForHelp");
+        NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "EndingIndo");
         //SceneManager.LoadScene("Introduction-1");
     }
 }

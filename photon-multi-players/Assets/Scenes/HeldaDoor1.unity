@@ -1679,7 +1679,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Look after \n    your physical health"
+  m_text: "Be friend with \n\tyour emotions"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -2919,7 +2919,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 62c69ab736b844502a841478653aab95, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e7d1244d88a4f41ef8b810f44c9968fd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3265,16 +3265,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- Get regular exercise : be active at least 30 min/day, wheter it''s running,
-    walking, dancing or even gardening
-
-    - Eat healthy, regular meal and stay
-    hydrated : have a balanced diet and plenty of water during the day + try reducing
-    caffeinated drinks
-
-    - Make sleep a priority : strick to a schedule that fits
-    your lifestyle and make sure to get enough sleep + reduce blue light exposure
-    from your phone or computer before bedtime"'
+  m_text: focus on more realistic scenario and dont let your irrational thought get
+    the upper hand
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -3301,8 +3293,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22
-  m_fontSizeBase: 22
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3439,6 +3431,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1965985858510425981, guid: d42d3a2a02121475ea7db50a7cddf3ad, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 9071326502734913214}
+    - target: {fileID: 1965985858510425981, guid: d42d3a2a02121475ea7db50a7cddf3ad, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StartBtn
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965985858510425981, guid: d42d3a2a02121475ea7db50a7cddf3ad, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: JumpToHeldaDoors, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4529389142671110316, guid: d42d3a2a02121475ea7db50a7cddf3ad, type: 3}
       propertyPath: m_Name
       value: BackIndoDoorsButtons
@@ -3446,13 +3450,33 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4529389142671110316, guid: d42d3a2a02121475ea7db50a7cddf3ad, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9071326502734913214}
   m_SourcePrefab: {fileID: 100100000, guid: d42d3a2a02121475ea7db50a7cddf3ad, type: 3}
 --- !u!224 &9071326502734913212 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1294702937154014709, guid: d42d3a2a02121475ea7db50a7cddf3ad, type: 3}
   m_PrefabInstance: {fileID: 9071326502734913211}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &9071326502734913213 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4529389142671110316, guid: d42d3a2a02121475ea7db50a7cddf3ad, type: 3}
+  m_PrefabInstance: {fileID: 9071326502734913211}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9071326502734913214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9071326502734913213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e43b93c93ae940beaf1d6b4c0d4933d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

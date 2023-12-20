@@ -1683,7 +1683,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 140.4, y: 147.9}
+  m_AnchoredPosition: {x: 142, y: 170}
   m_SizeDelta: {x: 892.5452, y: 30.2913}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &974510113
@@ -1706,7 +1706,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Priotize your current \n                          emotions"
+  m_text: "Positive enegy gives \n\tinfinite enegy to do \n  \t        \t   everything
+    !!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -1733,8 +1734,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 88
-  m_fontSizeBase: 88
+  m_fontSize: 77
+  m_fontSizeBase: 77
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2650,20 +2651,56 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1965985858510425981, guid: d42d3a2a02121475ea7db50a7cddf3ad, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1342788644}
+    - target: {fileID: 1965985858510425981, guid: d42d3a2a02121475ea7db50a7cddf3ad, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StartBtn
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965985858510425981, guid: d42d3a2a02121475ea7db50a7cddf3ad, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: JumpToWelcomeIndoDiscussion, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4529389142671110316, guid: d42d3a2a02121475ea7db50a7cddf3ad, type: 3}
       propertyPath: m_Name
       value: BackIndoDoorsButtons
       objectReference: {fileID: 0}
+    - target: {fileID: 8066086330613322022, guid: d42d3a2a02121475ea7db50a7cddf3ad, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dfe7498ea614341578c257508dd8128a, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4529389142671110316, guid: d42d3a2a02121475ea7db50a7cddf3ad, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1342788644}
   m_SourcePrefab: {fileID: 100100000, guid: d42d3a2a02121475ea7db50a7cddf3ad, type: 3}
 --- !u!224 &1342788642 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1294702937154014709, guid: d42d3a2a02121475ea7db50a7cddf3ad, type: 3}
   m_PrefabInstance: {fileID: 1342788641}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1342788643 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4529389142671110316, guid: d42d3a2a02121475ea7db50a7cddf3ad, type: 3}
+  m_PrefabInstance: {fileID: 1342788641}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1342788644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342788643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387c0fb885b3d4f17803f3e2b4670188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1367961386
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3021,7 +3058,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f7474ca5aed0d4473afee8a0da68c8dd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cf2ef42d9e1a7443189054b5bea51efb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3367,12 +3404,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- Focus on the world around you : help free yourself of constantly swirling
-    thoughts by reconnecting yourself with where you are at this moment in time
-
-    -
-    Practice gratitude : remind yourself daily of things you are grateful for, be
-    specific while writing them down at night or replaying them in your mind.'
+  m_text: Don't forget to laugh and have fun !!!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -3399,8 +3431,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22
-  m_fontSizeBase: 22
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
