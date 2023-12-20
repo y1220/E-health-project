@@ -9,6 +9,6 @@ public class JumpToHeldaDoor2: MonoBehaviour
     public void StartBtn()
     {
         //NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "Thanks");
-        SceneManager.LoadScene("HeldaDoor1");
+        SceneManager.LoadScene("HeldaDoor2");
     }
 }

@@ -1973,8 +1973,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 987200971}
-        m_TargetAssemblyTypeName: JumpToHeldaDoors, Assembly-CSharp
+      - m_Target: {fileID: 987200970}
+        m_TargetAssemblyTypeName: JumpToGame, Assembly-CSharp
         m_MethodName: StartBtn
         m_Mode: 1
         m_Arguments:

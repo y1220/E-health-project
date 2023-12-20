@@ -1873,6 +1873,8 @@ GameObject:
   - component: {fileID: 987200968}
   - component: {fileID: 987200967}
   - component: {fileID: 987200966}
+  - component: {fileID: 987200972}
+  - component: {fileID: 987200971}
   - component: {fileID: 987200965}
   - component: {fileID: 987200969}
   - component: {fileID: 987200970}
@@ -1959,8 +1961,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 987200970}
-        m_TargetAssemblyTypeName: JumpToGame, Assembly-CSharp
+      - m_Target: {fileID: 987200972}
+        m_TargetAssemblyTypeName: JumpToIndoMenu, Assembly-CSharp
         m_MethodName: StartBtn
         m_Mode: 1
         m_Arguments:
@@ -2031,6 +2033,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1b6f2dda7a8d4448393bf965fc49023a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &987200971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987200963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e2203fa9bdc40909245df26b3f82b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &987200972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987200963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ace82efe364245749941b5047f0bbb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1038059077

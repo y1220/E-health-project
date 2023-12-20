@@ -12,7 +12,10 @@ public enum PickupTypes
     Library,
     CryingPlant,
     CryingWater,
-    CryingFire
+    CryingFire,
+    Postoffice,
+    Bird
+    
 }
 
 public class Pickups : MonoBehaviour
@@ -35,7 +38,7 @@ public class Pickups : MonoBehaviour
                 player.photonView.RPC("GetGold", player.photonPlayer, value);
             }else if (types == PickupTypes.Door)
             {
-                NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "IndoDoors");
+                NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "HeldaDoors");
             }else if (types == PickupTypes.Discussion)
             {
                 NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "IndoIndication");
@@ -51,6 +54,12 @@ public class Pickups : MonoBehaviour
             }else if (types == PickupTypes.CryingFire)
             {
                 NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "TakeCareFire");
+            }else if (types == PickupTypes.Postoffice)
+            {
+                NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "PostOffice");
+            }else if (types == PickupTypes.Bird)
+            {
+                NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "LetterBird");
             }
             
             PhotonNetwork.Destroy(gameObject);
