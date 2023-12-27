@@ -15,7 +15,7 @@ public class UIScript : MonoBehaviour
     private string BASE_URL = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdPB3JeF_PS5mVXHJ-nuOkir8caLpg_n1YzHRRw5xec52VcqA/formResponse";
 
     [SerializeField]
-    private string API_URL = "http://192.168.10.112:3000/role";
+    private string API_URL = "http://192.168.3.138:3000/role";
 
 
     // Start is called before the first frame update

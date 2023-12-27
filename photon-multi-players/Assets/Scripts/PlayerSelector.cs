@@ -19,7 +19,7 @@ public class PlayerSelector : MonoBehaviour
 
     public GameObject[] playerModel;
     public int selectedCharacter;
-    private string API_URL = "http://192.168.10.112:3000/role";
+    private string API_URL = "http://192.168.3.138:3000/role";
 
     private void Awake()
     {

@@ -59,6 +59,7 @@
      <Compile Include="Assets/Scripts/HeaderInformation.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets/Scripts/QuestionData.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
      <Compile Include="Assets/Scripts/PlayerRoleData.cs" />
      <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/AppSettingsExtensions.cs" />
@@ -158,6 +159,7 @@
      <Compile Include="Assets/Scripts/JumpToCorrectAnswer.cs" />
      <Compile Include="Assets/Scripts/APIManager.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
+     <Compile Include="Assets/Scripts/QuestionMaker.cs" />
      <Compile Include="Assets/Animated Fantasy Planet/Demo/Script/LookCamera.cs" />
      <Compile Include="Assets/Scripts/PlayerController.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />

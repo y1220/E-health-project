@@ -17,7 +17,7 @@ public class Signin : MonoBehaviour
     private string Password;
 
     [SerializeField]
-    private string API_URL = "http://192.168.10.112:3000/login";
+    private string API_URL = "http://192.168.3.138:3000/login";
 
     public void Login()
     {
