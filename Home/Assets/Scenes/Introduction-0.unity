@@ -1194,7 +1194,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1326686976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1207,6 +1207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfabbfc97a8d44af88fc628c6338c09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  API_URL: http://192.168.3.138:3000/login
 --- !u!4 &1326686977
 Transform:
   m_ObjectHideFlags: 0

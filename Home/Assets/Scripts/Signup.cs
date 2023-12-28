@@ -19,7 +19,7 @@ public class Signup : MonoBehaviour
     private string Password;
 
     [SerializeField]
-    private string API_URL = "http://192.168.3.138:3000/players";
+    private string API_URL = Configuration.ApiUrlEndpoint + "/players";
 
     public void CreatePlayer()
     {

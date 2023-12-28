@@ -693,6 +693,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5486483916251700155, guid: 98ed008b8ef7c41569135feaf2eaa8bd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 298840404}
+    - target: {fileID: 5486483916251700155, guid: 98ed008b8ef7c41569135feaf2eaa8bd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StartBtn
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486483916251700155, guid: 98ed008b8ef7c41569135feaf2eaa8bd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: JumpToHome, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 7618558537642485898, guid: 98ed008b8ef7c41569135feaf2eaa8bd, type: 3}
       propertyPath: m_Name
       value: Button
@@ -707,6 +719,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2244489939883852104, guid: 98ed008b8ef7c41569135feaf2eaa8bd, type: 3}
   m_PrefabInstance: {fileID: 298840402}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &298840404 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5075969133036850788, guid: 98ed008b8ef7c41569135feaf2eaa8bd, type: 3}
+  m_PrefabInstance: {fileID: 298840402}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e3d43b109b64c30b8adc8371638f72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &301321865
 GameObject:
   m_ObjectHideFlags: 0
@@ -725,7 +748,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &301321866
 RectTransform:
   m_ObjectHideFlags: 0

@@ -5,8 +5,6 @@ using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
 
-
-
 public class PlayerSelector : MonoBehaviour
 {
     public GameObject nextButton;
@@ -19,7 +17,7 @@ public class PlayerSelector : MonoBehaviour
 
     public GameObject[] playerModel;
     public int selectedCharacter;
-    private string API_URL = "http://192.168.3.138:3000/role";
+    private string API_URL = Configuration.ApiUrlEndpoint + "/role";
 
     private void Awake()
     {

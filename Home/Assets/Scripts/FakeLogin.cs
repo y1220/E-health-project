@@ -8,6 +8,7 @@ using UnityEngine.Networking;
 using UnityEngine.UI;
 
 
+
 public class FakeLogin : MonoBehaviour
 {
 
@@ -15,7 +16,7 @@ public class FakeLogin : MonoBehaviour
     private string Password;
 
     [SerializeField]
-    private string API_URL = "http://192.168.3.138:3000/login";
+    private string API_URL = Configuration.ApiUrlEndpoint + "/login";
 
     void Start()
     {

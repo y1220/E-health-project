@@ -25,7 +25,7 @@ public class QuestionMaker : MonoBehaviour
     private string CreatedFor;
 
     [SerializeField]
-    private string API_URL = "http://192.168.3.138:3000/questions";
+    private string API_URL = Configuration.ApiUrlEndpoint + "/questions";
 
     public void MakeQuestion()
     {
