@@ -1,5 +1,7 @@
 This project is aiming for assisting people who deal with depression/anxiety issues in their life.
+Firstly, register yourself and create your user room, this will led you to choose the character that best fits you: Hardir or Estel. Afterwards you can set your profile and complete the first survey to be prepared to start playing!
 ## Menu:  
+Here you can start your adventure by travelling to these three planets. Also you can track your improvements in the games in PROFILE section or make the survey again in SURVEY section. 
 <img width="929" alt="image" src="https://github.com/y1220/E-health-project/assets/42637947/ab1f6628-c157-40c3-9185-576dd84b047e">  
 source file: /Users/yuiwatanabe/Desktop/E-health-pyhon 3/photon-multi-players/Assets/Scenes/Planets.unity
 
