@@ -7,7 +7,7 @@ Here you can start your adventure by travelling to these three planets. Also you
 
 <img width="929" alt="image" src="https://github.com/y1220/E-health-project/assets/42637947/ab1f6628-c157-40c3-9185-576dd84b047e">  
 
-source file: /Users/yuiwatanabe/Desktop/E-health-pyhon 3/photon-multi-players/Assets/Scenes/Planets.unity
+source file: E-health-project/photon-multi-players/Assets/Scenes/Planets.unity
 
 There are three different mini game player can enjoy with,
 ### 1. Running road (INDO): SELF CARE AND HABITS
